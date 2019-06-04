@@ -1,0 +1,44 @@
+PUT suppliers
+{
+	"mappings": {
+		"properties": {
+			"s_nation": {
+				"type": "text",
+				"fielddata": true
+			},
+			"s_city": {
+				"type": "text",
+				"fielddata": true
+			},
+			"s_region": {
+				"type": "text",
+				"fielddata": true
+			},
+			"lineorder": {
+				"type": "nested",
+				"properties": {
+					"part.p_brand1": {
+						"type": "text",
+						"fielddata": true
+					},
+					"part.p_category": {
+						"type": "text",
+						"fielddata": true
+					},
+					"customer.c_city": {
+						"type": "text",
+						"fielddata": true
+					},
+					"customer.c_region": {
+						"type": "text",
+						"fielddata": true
+					},
+					"customer.c_nation": {
+						"type": "text",
+						"fielddata": true
+					}
+				}
+			}
+		}
+	}
+}
