@@ -1,0 +1,3765 @@
+{
+  "took" : 43,
+  "timed_out" : false,
+  "_shards" : {
+    "total" : 1,
+    "successful" : 1,
+    "skipped" : 0,
+    "failed" : 0
+  },
+  "hits" : {
+    "total" : {
+      "value" : 114,
+      "relation" : "eq"
+    },
+    "max_score" : null,
+    "hits" : [ ]
+  },
+  "aggregations" : {
+    "s_city" : {
+      "doc_count_error_upper_bound" : 0,
+      "sum_other_doc_count" : 0,
+      "buckets" : [
+        {
+          "key" : "ki0",
+          "doc_count" : 9,
+          "lineorder" : {
+            "doc_count" : 238,
+            "only_loc" : {
+              "doc_count" : 14,
+              "year" : {
+                "doc_count_error_upper_bound" : 0,
+                "sum_other_doc_count" : 0,
+                "buckets" : [
+                  {
+                    "key" : 1997,
+                    "doc_count" : 14,
+                    "p_brand1" : {
+                      "doc_count_error_upper_bound" : 0,
+                      "sum_other_doc_count" : 0,
+                      "buckets" : [
+                        {
+                          "key" : "115",
+                          "doc_count" : 1,
+                          "profit" : {
+                            "value" : 959027.0
+                          }
+                        },
+                        {
+                          "key" : "1524",
+                          "doc_count" : 1,
+                          "profit" : {
+                            "value" : 2588578.0
+                          }
+                        },
+                        {
+                          "key" : "2132",
+                          "doc_count" : 1,
+                          "profit" : {
+                            "value" : -75741.0
+                          }
+                        },
+                        {
+                          "key" : "216",
+                          "doc_count" : 1,
+                          "profit" : {
+                            "value" : 3731667.0
+                          }
+                        },
+                        {
+                          "key" : "217",
+                          "doc_count" : 1,
+                          "profit" : {
+                            "value" : 1277313.0
+                          }
+                        },
+                        {
+                          "key" : "2527",
+                          "doc_count" : 1,
+                          "profit" : {
+                            "value" : -110395.0
+                          }
+                        },
+                        {
+                          "key" : "3129",
+                          "doc_count" : 1,
+                          "profit" : {
+                            "value" : 3423308.0
+                          }
+                        },
+                        {
+                          "key" : "335",
+                          "doc_count" : 1,
+                          "profit" : {
+                            "value" : 2413988.0
+                          }
+                        },
+                        {
+                          "key" : "3416",
+                          "doc_count" : 1,
+                          "profit" : {
+                            "value" : 2942397.0
+                          }
+                        },
+                        {
+                          "key" : "3527",
+                          "doc_count" : 1,
+                          "profit" : {
+                            "value" : -82888.0
+                          }
+                        },
+                        {
+                          "key" : "4126",
+                          "doc_count" : 1,
+                          "profit" : {
+                            "value" : 1945016.0
+                          }
+                        },
+                        {
+                          "key" : "4316",
+                          "doc_count" : 1,
+                          "profit" : {
+                            "value" : 1810955.0
+                          }
+                        },
+                        {
+                          "key" : "513",
+                          "doc_count" : 1,
+                          "profit" : {
+                            "value" : 2261147.0
+                          }
+                        },
+                        {
+                          "key" : "5331",
+                          "doc_count" : 1,
+                          "profit" : {
+                            "value" : 4130442.0
+                          }
+                        },
+                        {
+                          "key" : "mfgr",
+                          "doc_count" : 14,
+                          "profit" : {
+                            "value" : 2.7214814E7
+                          }
+                        }
+                      ]
+                    }
+                  }
+                ]
+              }
+            }
+          }
+        },
+        {
+          "key" : "ki1",
+          "doc_count" : 6,
+          "lineorder" : {
+            "doc_count" : 177,
+            "only_loc" : {
+              "doc_count" : 12,
+              "year" : {
+                "doc_count_error_upper_bound" : 0,
+                "sum_other_doc_count" : 0,
+                "buckets" : [
+                  {
+                    "key" : 1997,
+                    "doc_count" : 6,
+                    "p_brand1" : {
+                      "doc_count_error_upper_bound" : 0,
+                      "sum_other_doc_count" : 0,
+                      "buckets" : [
+                        {
+                          "key" : "2216",
+                          "doc_count" : 1,
+                          "profit" : {
+                            "value" : -62468.0
+                          }
+                        },
+                        {
+                          "key" : "3115",
+                          "doc_count" : 1,
+                          "profit" : {
+                            "value" : 2700480.0
+                          }
+                        },
+                        {
+                          "key" : "3438",
+                          "doc_count" : 1,
+                          "profit" : {
+                            "value" : 1130826.0
+                          }
+                        },
+                        {
+                          "key" : "4140",
+                          "doc_count" : 1,
+                          "profit" : {
+                            "value" : 3737200.0
+                          }
+                        },
+                        {
+                          "key" : "427",
+                          "doc_count" : 1,
+                          "profit" : {
+                            "value" : 3974256.0
+                          }
+                        },
+                        {
+                          "key" : "523",
+                          "doc_count" : 1,
+                          "profit" : {
+                            "value" : 3626934.0
+                          }
+                        },
+                        {
+                          "key" : "mfgr",
+                          "doc_count" : 6,
+                          "profit" : {
+                            "value" : 1.5107228E7
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "key" : 1998,
+                    "doc_count" : 6,
+                    "p_brand1" : {
+                      "doc_count_error_upper_bound" : 0,
+                      "sum_other_doc_count" : 0,
+                      "buckets" : [
+                        {
+                          "key" : "141",
+                          "doc_count" : 1,
+                          "profit" : {
+                            "value" : 5820137.0
+                          }
+                        },
+                        {
+                          "key" : "1414",
+                          "doc_count" : 1,
+                          "profit" : {
+                            "value" : 6329250.0
+                          }
+                        },
+                        {
+                          "key" : "3119",
+                          "doc_count" : 1,
+                          "profit" : {
+                            "value" : -79585.0
+                          }
+                        },
+                        {
+                          "key" : "514",
+                          "doc_count" : 1,
+                          "profit" : {
+                            "value" : 3326442.0
+                          }
+                        },
+                        {
+                          "key" : "5336",
+                          "doc_count" : 1,
+                          "profit" : {
+                            "value" : 6638199.0
+                          }
+                        },
+                        {
+                          "key" : "5533",
+                          "doc_count" : 1,
+                          "profit" : {
+                            "value" : 3897828.0
+                          }
+                        },
+                        {
+                          "key" : "mfgr",
+                          "doc_count" : 6,
+                          "profit" : {
+                            "value" : 2.5932271E7
+                          }
+                        }
+                      ]
+                    }
+                  }
+                ]
+              }
+            }
+          }
+        },
+        {
+          "key" : "ki2",
+          "doc_count" : 5,
+          "lineorder" : {
+            "doc_count" : 134,
+            "only_loc" : {
+              "doc_count" : 9,
+              "year" : {
+                "doc_count_error_upper_bound" : 0,
+                "sum_other_doc_count" : 0,
+                "buckets" : [
+                  {
+                    "key" : 1997,
+                    "doc_count" : 8,
+                    "p_brand1" : {
+                      "doc_count_error_upper_bound" : 0,
+                      "sum_other_doc_count" : 0,
+                      "buckets" : [
+                        {
+                          "key" : "3125",
+                          "doc_count" : 1,
+                          "profit" : {
+                            "value" : 4192655.0
+                          }
+                        },
+                        {
+                          "key" : "3240",
+                          "doc_count" : 1,
+                          "profit" : {
+                            "value" : 1676582.0
+                          }
+                        },
+                        {
+                          "key" : "4112",
+                          "doc_count" : 1,
+                          "profit" : {
+                            "value" : 1078898.0
+                          }
+                        },
+                        {
+                          "key" : "419",
+                          "doc_count" : 1,
+                          "profit" : {
+                            "value" : 1451082.0
+                          }
+                        },
+                        {
+                          "key" : "433",
+                          "doc_count" : 1,
+                          "profit" : {
+                            "value" : 814137.0
+                          }
+                        },
+                        {
+                          "key" : "4510",
+                          "doc_count" : 1,
+                          "profit" : {
+                            "value" : 6453525.0
+                          }
+                        },
+                        {
+                          "key" : "5138",
+                          "doc_count" : 1,
+                          "profit" : {
+                            "value" : 695019.0
+                          }
+                        },
+                        {
+                          "key" : "5213",
+                          "doc_count" : 1,
+                          "profit" : {
+                            "value" : -65170.0
+                          }
+                        },
+                        {
+                          "key" : "mfgr",
+                          "doc_count" : 8,
+                          "profit" : {
+                            "value" : 1.6296728E7
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "key" : 1998,
+                    "doc_count" : 1,
+                    "p_brand1" : {
+                      "doc_count_error_upper_bound" : 0,
+                      "sum_other_doc_count" : 0,
+                      "buckets" : [
+                        {
+                          "key" : "4314",
+                          "doc_count" : 1,
+                          "profit" : {
+                            "value" : 1493682.0
+                          }
+                        },
+                        {
+                          "key" : "mfgr",
+                          "doc_count" : 1,
+                          "profit" : {
+                            "value" : 1493682.0
+                          }
+                        }
+                      ]
+                    }
+                  }
+                ]
+              }
+            }
+          }
+        },
+        {
+          "key" : "ki3",
+          "doc_count" : 6,
+          "lineorder" : {
+            "doc_count" : 199,
+            "only_loc" : {
+              "doc_count" : 11,
+              "year" : {
+                "doc_count_error_upper_bound" : 0,
+                "sum_other_doc_count" : 0,
+                "buckets" : [
+                  {
+                    "key" : 1997,
+                    "doc_count" : 5,
+                    "p_brand1" : {
+                      "doc_count_error_upper_bound" : 0,
+                      "sum_other_doc_count" : 0,
+                      "buckets" : [
+                        {
+                          "key" : "2433",
+                          "doc_count" : 1,
+                          "profit" : {
+                            "value" : 2371586.0
+                          }
+                        },
+                        {
+                          "key" : "3240",
+                          "doc_count" : 1,
+                          "profit" : {
+                            "value" : 1616346.0
+                          }
+                        },
+                        {
+                          "key" : "3436",
+                          "doc_count" : 1,
+                          "profit" : {
+                            "value" : 1503990.0
+                          }
+                        },
+                        {
+                          "key" : "3516",
+                          "doc_count" : 1,
+                          "profit" : {
+                            "value" : -94360.0
+                          }
+                        },
+                        {
+                          "key" : "3534",
+                          "doc_count" : 1,
+                          "profit" : {
+                            "value" : 3315588.0
+                          }
+                        },
+                        {
+                          "key" : "mfgr",
+                          "doc_count" : 5,
+                          "profit" : {
+                            "value" : 8713150.0
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "key" : 1998,
+                    "doc_count" : 6,
+                    "p_brand1" : {
+                      "doc_count_error_upper_bound" : 0,
+                      "sum_other_doc_count" : 0,
+                      "buckets" : [
+                        {
+                          "key" : "1427",
+                          "doc_count" : 1,
+                          "profit" : {
+                            "value" : 4708218.0
+                          }
+                        },
+                        {
+                          "key" : "229",
+                          "doc_count" : 1,
+                          "profit" : {
+                            "value" : 74100.0
+                          }
+                        },
+                        {
+                          "key" : "3234",
+                          "doc_count" : 1,
+                          "profit" : {
+                            "value" : 4853252.0
+                          }
+                        },
+                        {
+                          "key" : "417",
+                          "doc_count" : 1,
+                          "profit" : {
+                            "value" : 1215994.0
+                          }
+                        },
+                        {
+                          "key" : "4336",
+                          "doc_count" : 1,
+                          "profit" : {
+                            "value" : 5434734.0
+                          }
+                        },
+                        {
+                          "key" : "5510",
+                          "doc_count" : 1,
+                          "profit" : {
+                            "value" : 377441.0
+                          }
+                        },
+                        {
+                          "key" : "mfgr",
+                          "doc_count" : 6,
+                          "profit" : {
+                            "value" : 1.6663739E7
+                          }
+                        }
+                      ]
+                    }
+                  }
+                ]
+              }
+            }
+          }
+        },
+        {
+          "key" : "ki4",
+          "doc_count" : 6,
+          "lineorder" : {
+            "doc_count" : 167,
+            "only_loc" : {
+              "doc_count" : 11,
+              "year" : {
+                "doc_count_error_upper_bound" : 0,
+                "sum_other_doc_count" : 0,
+                "buckets" : [
+                  {
+                    "key" : 1997,
+                    "doc_count" : 4,
+                    "p_brand1" : {
+                      "doc_count_error_upper_bound" : 0,
+                      "sum_other_doc_count" : 0,
+                      "buckets" : [
+                        {
+                          "key" : "3222",
+                          "doc_count" : 1,
+                          "profit" : {
+                            "value" : -64210.0
+                          }
+                        },
+                        {
+                          "key" : "3519",
+                          "doc_count" : 1,
+                          "profit" : {
+                            "value" : 4033865.0
+                          }
+                        },
+                        {
+                          "key" : "3536",
+                          "doc_count" : 1,
+                          "profit" : {
+                            "value" : 6858514.0
+                          }
+                        },
+                        {
+                          "key" : "4140",
+                          "doc_count" : 1,
+                          "profit" : {
+                            "value" : -64029.0
+                          }
+                        },
+                        {
+                          "key" : "mfgr",
+                          "doc_count" : 4,
+                          "profit" : {
+                            "value" : 1.076414E7
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "key" : 1998,
+                    "doc_count" : 7,
+                    "p_brand1" : {
+                      "doc_count_error_upper_bound" : 0,
+                      "sum_other_doc_count" : 0,
+                      "buckets" : [
+                        {
+                          "key" : "1225",
+                          "doc_count" : 1,
+                          "profit" : {
+                            "value" : 1003131.0
+                          }
+                        },
+                        {
+                          "key" : "136",
+                          "doc_count" : 1,
+                          "profit" : {
+                            "value" : 4251376.0
+                          }
+                        },
+                        {
+                          "key" : "1514",
+                          "doc_count" : 1,
+                          "profit" : {
+                            "value" : 3050856.0
+                          }
+                        },
+                        {
+                          "key" : "2517",
+                          "doc_count" : 1,
+                          "profit" : {
+                            "value" : 119792.0
+                          }
+                        },
+                        {
+                          "key" : "426",
+                          "doc_count" : 1,
+                          "profit" : {
+                            "value" : 2078270.0
+                          }
+                        },
+                        {
+                          "key" : "448",
+                          "doc_count" : 1,
+                          "profit" : {
+                            "value" : 2532140.0
+                          }
+                        },
+                        {
+                          "key" : "459",
+                          "doc_count" : 1,
+                          "profit" : {
+                            "value" : 2495636.0
+                          }
+                        },
+                        {
+                          "key" : "mfgr",
+                          "doc_count" : 7,
+                          "profit" : {
+                            "value" : 1.5531201E7
+                          }
+                        }
+                      ]
+                    }
+                  }
+                ]
+              }
+            }
+          }
+        },
+        {
+          "key" : "ki5",
+          "doc_count" : 3,
+          "lineorder" : {
+            "doc_count" : 86,
+            "only_loc" : {
+              "doc_count" : 3,
+              "year" : {
+                "doc_count_error_upper_bound" : 0,
+                "sum_other_doc_count" : 0,
+                "buckets" : [
+                  {
+                    "key" : 1997,
+                    "doc_count" : 3,
+                    "p_brand1" : {
+                      "doc_count_error_upper_bound" : 0,
+                      "sum_other_doc_count" : 0,
+                      "buckets" : [
+                        {
+                          "key" : "2210",
+                          "doc_count" : 1,
+                          "profit" : {
+                            "value" : -92858.0
+                          }
+                        },
+                        {
+                          "key" : "313",
+                          "doc_count" : 1,
+                          "profit" : {
+                            "value" : 4936987.0
+                          }
+                        },
+                        {
+                          "key" : "4139",
+                          "doc_count" : 1,
+                          "profit" : {
+                            "value" : 5692855.0
+                          }
+                        },
+                        {
+                          "key" : "mfgr",
+                          "doc_count" : 3,
+                          "profit" : {
+                            "value" : 1.0536984E7
+                          }
+                        }
+                      ]
+                    }
+                  }
+                ]
+              }
+            }
+          }
+        },
+        {
+          "key" : "ki6",
+          "doc_count" : 5,
+          "lineorder" : {
+            "doc_count" : 151,
+            "only_loc" : {
+              "doc_count" : 10,
+              "year" : {
+                "doc_count_error_upper_bound" : 0,
+                "sum_other_doc_count" : 0,
+                "buckets" : [
+                  {
+                    "key" : 1997,
+                    "doc_count" : 7,
+                    "p_brand1" : {
+                      "doc_count_error_upper_bound" : 0,
+                      "sum_other_doc_count" : 0,
+                      "buckets" : [
+                        {
+                          "key" : "1437",
+                          "doc_count" : 1,
+                          "profit" : {
+                            "value" : 608788.0
+                          }
+                        },
+                        {
+                          "key" : "2231",
+                          "doc_count" : 1,
+                          "profit" : {
+                            "value" : 4488895.0
+                          }
+                        },
+                        {
+                          "key" : "2440",
+                          "doc_count" : 1,
+                          "profit" : {
+                            "value" : -69975.0
+                          }
+                        },
+                        {
+                          "key" : "248",
+                          "doc_count" : 1,
+                          "profit" : {
+                            "value" : 1242414.0
+                          }
+                        },
+                        {
+                          "key" : "311",
+                          "doc_count" : 1,
+                          "profit" : {
+                            "value" : -94059.0
+                          }
+                        },
+                        {
+                          "key" : "4220",
+                          "doc_count" : 1,
+                          "profit" : {
+                            "value" : 2584433.0
+                          }
+                        },
+                        {
+                          "key" : "514",
+                          "doc_count" : 1,
+                          "profit" : {
+                            "value" : 5248170.0
+                          }
+                        },
+                        {
+                          "key" : "mfgr",
+                          "doc_count" : 7,
+                          "profit" : {
+                            "value" : 1.4008666E7
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "key" : 1998,
+                    "doc_count" : 3,
+                    "p_brand1" : {
+                      "doc_count_error_upper_bound" : 0,
+                      "sum_other_doc_count" : 0,
+                      "buckets" : [
+                        {
+                          "key" : "2134",
+                          "doc_count" : 1,
+                          "profit" : {
+                            "value" : 1628099.0
+                          }
+                        },
+                        {
+                          "key" : "3333",
+                          "doc_count" : 1,
+                          "profit" : {
+                            "value" : 1782594.0
+                          }
+                        },
+                        {
+                          "key" : "4234",
+                          "doc_count" : 1,
+                          "profit" : {
+                            "value" : 2145684.0
+                          }
+                        },
+                        {
+                          "key" : "mfgr",
+                          "doc_count" : 3,
+                          "profit" : {
+                            "value" : 5556377.0
+                          }
+                        }
+                      ]
+                    }
+                  }
+                ]
+              }
+            }
+          }
+        },
+        {
+          "key" : "ki7",
+          "doc_count" : 6,
+          "lineorder" : {
+            "doc_count" : 186,
+            "only_loc" : {
+              "doc_count" : 9,
+              "year" : {
+                "doc_count_error_upper_bound" : 0,
+                "sum_other_doc_count" : 0,
+                "buckets" : [
+                  {
+                    "key" : 1997,
+                    "doc_count" : 4,
+                    "p_brand1" : {
+                      "doc_count_error_upper_bound" : 0,
+                      "sum_other_doc_count" : 0,
+                      "buckets" : [
+                        {
+                          "key" : "1437",
+                          "doc_count" : 1,
+                          "profit" : {
+                            "value" : 555508.0
+                          }
+                        },
+                        {
+                          "key" : "2129",
+                          "doc_count" : 1,
+                          "profit" : {
+                            "value" : -55921.0
+                          }
+                        },
+                        {
+                          "key" : "325",
+                          "doc_count" : 1,
+                          "profit" : {
+                            "value" : 1229752.0
+                          }
+                        },
+                        {
+                          "key" : "343",
+                          "doc_count" : 1,
+                          "profit" : {
+                            "value" : 478933.0
+                          }
+                        },
+                        {
+                          "key" : "mfgr",
+                          "doc_count" : 4,
+                          "profit" : {
+                            "value" : 2208272.0
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "key" : 1998,
+                    "doc_count" : 5,
+                    "p_brand1" : {
+                      "doc_count_error_upper_bound" : 0,
+                      "sum_other_doc_count" : 0,
+                      "buckets" : [
+                        {
+                          "key" : "1418",
+                          "doc_count" : 1,
+                          "profit" : {
+                            "value" : 6586578.0
+                          }
+                        },
+                        {
+                          "key" : "3227",
+                          "doc_count" : 1,
+                          "profit" : {
+                            "value" : -92858.0
+                          }
+                        },
+                        {
+                          "key" : "3232",
+                          "doc_count" : 1,
+                          "profit" : {
+                            "value" : 1761139.0
+                          }
+                        },
+                        {
+                          "key" : "4137",
+                          "doc_count" : 1,
+                          "profit" : {
+                            "value" : -66132.0
+                          }
+                        },
+                        {
+                          "key" : "537",
+                          "doc_count" : 1,
+                          "profit" : {
+                            "value" : 1232191.0
+                          }
+                        },
+                        {
+                          "key" : "mfgr",
+                          "doc_count" : 5,
+                          "profit" : {
+                            "value" : 9420918.0
+                          }
+                        }
+                      ]
+                    }
+                  }
+                ]
+              }
+            }
+          }
+        },
+        {
+          "key" : "ki8",
+          "doc_count" : 3,
+          "lineorder" : {
+            "doc_count" : 75,
+            "only_loc" : {
+              "doc_count" : 5,
+              "year" : {
+                "doc_count_error_upper_bound" : 0,
+                "sum_other_doc_count" : 0,
+                "buckets" : [
+                  {
+                    "key" : 1997,
+                    "doc_count" : 3,
+                    "p_brand1" : {
+                      "doc_count_error_upper_bound" : 0,
+                      "sum_other_doc_count" : 0,
+                      "buckets" : [
+                        {
+                          "key" : "1414",
+                          "doc_count" : 1,
+                          "profit" : {
+                            "value" : 964176.0
+                          }
+                        },
+                        {
+                          "key" : "231",
+                          "doc_count" : 1,
+                          "profit" : {
+                            "value" : 1287092.0
+                          }
+                        },
+                        {
+                          "key" : "255",
+                          "doc_count" : 1,
+                          "profit" : {
+                            "value" : -69615.0
+                          }
+                        },
+                        {
+                          "key" : "mfgr",
+                          "doc_count" : 3,
+                          "profit" : {
+                            "value" : 2181653.0
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "key" : 1998,
+                    "doc_count" : 2,
+                    "p_brand1" : {
+                      "doc_count_error_upper_bound" : 0,
+                      "sum_other_doc_count" : 0,
+                      "buckets" : [
+                        {
+                          "key" : "1139",
+                          "doc_count" : 1,
+                          "profit" : {
+                            "value" : -69615.0
+                          }
+                        },
+                        {
+                          "key" : "2435",
+                          "doc_count" : 1,
+                          "profit" : {
+                            "value" : -66972.0
+                          }
+                        },
+                        {
+                          "key" : "mfgr",
+                          "doc_count" : 2,
+                          "profit" : {
+                            "value" : -136587.0
+                          }
+                        }
+                      ]
+                    }
+                  }
+                ]
+              }
+            }
+          }
+        },
+        {
+          "key" : "ki9",
+          "doc_count" : 4,
+          "lineorder" : {
+            "doc_count" : 136,
+            "only_loc" : {
+              "doc_count" : 8,
+              "year" : {
+                "doc_count_error_upper_bound" : 0,
+                "sum_other_doc_count" : 0,
+                "buckets" : [
+                  {
+                    "key" : 1997,
+                    "doc_count" : 5,
+                    "p_brand1" : {
+                      "doc_count_error_upper_bound" : 0,
+                      "sum_other_doc_count" : 0,
+                      "buckets" : [
+                        {
+                          "key" : "132",
+                          "doc_count" : 1,
+                          "profit" : {
+                            "value" : -88354.0
+                          }
+                        },
+                        {
+                          "key" : "2316",
+                          "doc_count" : 1,
+                          "profit" : {
+                            "value" : -78144.0
+                          }
+                        },
+                        {
+                          "key" : "3213",
+                          "doc_count" : 1,
+                          "profit" : {
+                            "value" : 5614646.0
+                          }
+                        },
+                        {
+                          "key" : "3410",
+                          "doc_count" : 1,
+                          "profit" : {
+                            "value" : 4894822.0
+                          }
+                        },
+                        {
+                          "key" : "4510",
+                          "doc_count" : 1,
+                          "profit" : {
+                            "value" : 5612718.0
+                          }
+                        },
+                        {
+                          "key" : "mfgr",
+                          "doc_count" : 5,
+                          "profit" : {
+                            "value" : 1.5955688E7
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "key" : 1998,
+                    "doc_count" : 3,
+                    "p_brand1" : {
+                      "doc_count_error_upper_bound" : 0,
+                      "sum_other_doc_count" : 0,
+                      "buckets" : [
+                        {
+                          "key" : "3217",
+                          "doc_count" : 1,
+                          "profit" : {
+                            "value" : 4055634.0
+                          }
+                        },
+                        {
+                          "key" : "4126",
+                          "doc_count" : 1,
+                          "profit" : {
+                            "value" : 5613344.0
+                          }
+                        },
+                        {
+                          "key" : "4419",
+                          "doc_count" : 1,
+                          "profit" : {
+                            "value" : 932137.0
+                          }
+                        },
+                        {
+                          "key" : "mfgr",
+                          "doc_count" : 3,
+                          "profit" : {
+                            "value" : 1.0601115E7
+                          }
+                        }
+                      ]
+                    }
+                  }
+                ]
+              }
+            }
+          }
+        },
+        {
+          "key" : "st0",
+          "doc_count" : 8,
+          "lineorder" : {
+            "doc_count" : 254,
+            "only_loc" : {
+              "doc_count" : 15,
+              "year" : {
+                "doc_count_error_upper_bound" : 0,
+                "sum_other_doc_count" : 0,
+                "buckets" : [
+                  {
+                    "key" : 1997,
+                    "doc_count" : 11,
+                    "p_brand1" : {
+                      "doc_count_error_upper_bound" : 0,
+                      "sum_other_doc_count" : 0,
+                      "buckets" : [
+                        {
+                          "key" : "225",
+                          "doc_count" : 1,
+                          "profit" : {
+                            "value" : 1293342.0
+                          }
+                        },
+                        {
+                          "key" : "2423",
+                          "doc_count" : 1,
+                          "profit" : {
+                            "value" : 6703205.0
+                          }
+                        },
+                        {
+                          "key" : "2531",
+                          "doc_count" : 1,
+                          "profit" : {
+                            "value" : 4783529.0
+                          }
+                        },
+                        {
+                          "key" : "4336",
+                          "doc_count" : 1,
+                          "profit" : {
+                            "value" : -83068.0
+                          }
+                        },
+                        {
+                          "key" : "4536",
+                          "doc_count" : 1,
+                          "profit" : {
+                            "value" : 654660.0
+                          }
+                        },
+                        {
+                          "key" : "5136",
+                          "doc_count" : 1,
+                          "profit" : {
+                            "value" : 2327258.0
+                          }
+                        },
+                        {
+                          "key" : "5215",
+                          "doc_count" : 1,
+                          "profit" : {
+                            "value" : -83068.0
+                          }
+                        },
+                        {
+                          "key" : "5320",
+                          "doc_count" : 1,
+                          "profit" : {
+                            "value" : 5557303.0
+                          }
+                        },
+                        {
+                          "key" : "5324",
+                          "doc_count" : 1,
+                          "profit" : {
+                            "value" : 3824990.0
+                          }
+                        },
+                        {
+                          "key" : "5329",
+                          "doc_count" : 1,
+                          "profit" : {
+                            "value" : -89495.0
+                          }
+                        },
+                        {
+                          "key" : "5411",
+                          "doc_count" : 1,
+                          "profit" : {
+                            "value" : 944176.0
+                          }
+                        },
+                        {
+                          "key" : "mfgr",
+                          "doc_count" : 11,
+                          "profit" : {
+                            "value" : 2.5832832E7
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "key" : 1998,
+                    "doc_count" : 4,
+                    "p_brand1" : {
+                      "doc_count_error_upper_bound" : 0,
+                      "sum_other_doc_count" : 0,
+                      "buckets" : [
+                        {
+                          "key" : "1123",
+                          "doc_count" : 1,
+                          "profit" : {
+                            "value" : 3192003.0
+                          }
+                        },
+                        {
+                          "key" : "3119",
+                          "doc_count" : 1,
+                          "profit" : {
+                            "value" : 1323338.0
+                          }
+                        },
+                        {
+                          "key" : "3131",
+                          "doc_count" : 1,
+                          "profit" : {
+                            "value" : 5253199.0
+                          }
+                        },
+                        {
+                          "key" : "4225",
+                          "doc_count" : 1,
+                          "profit" : {
+                            "value" : 962360.0
+                          }
+                        },
+                        {
+                          "key" : "mfgr",
+                          "doc_count" : 4,
+                          "profit" : {
+                            "value" : 1.07309E7
+                          }
+                        }
+                      ]
+                    }
+                  }
+                ]
+              }
+            }
+          }
+        },
+        {
+          "key" : "st1",
+          "doc_count" : 10,
+          "lineorder" : {
+            "doc_count" : 317,
+            "only_loc" : {
+              "doc_count" : 17,
+              "year" : {
+                "doc_count_error_upper_bound" : 0,
+                "sum_other_doc_count" : 0,
+                "buckets" : [
+                  {
+                    "key" : 1997,
+                    "doc_count" : 11,
+                    "p_brand1" : {
+                      "doc_count_error_upper_bound" : 0,
+                      "sum_other_doc_count" : 0,
+                      "buckets" : [
+                        {
+                          "key" : "1433",
+                          "doc_count" : 1,
+                          "profit" : {
+                            "value" : 4325001.0
+                          }
+                        },
+                        {
+                          "key" : "1521",
+                          "doc_count" : 1,
+                          "profit" : {
+                            "value" : 3441254.0
+                          }
+                        },
+                        {
+                          "key" : "2215",
+                          "doc_count" : 1,
+                          "profit" : {
+                            "value" : 4680137.0
+                          }
+                        },
+                        {
+                          "key" : "2424",
+                          "doc_count" : 1,
+                          "profit" : {
+                            "value" : -73098.0
+                          }
+                        },
+                        {
+                          "key" : "253",
+                          "doc_count" : 1,
+                          "profit" : {
+                            "value" : 4835157.0
+                          }
+                        },
+                        {
+                          "key" : "3125",
+                          "doc_count" : 1,
+                          "profit" : {
+                            "value" : -77362.0
+                          }
+                        },
+                        {
+                          "key" : "3333",
+                          "doc_count" : 1,
+                          "profit" : {
+                            "value" : 3918085.0
+                          }
+                        },
+                        {
+                          "key" : "3414",
+                          "doc_count" : 1,
+                          "profit" : {
+                            "value" : -79345.0
+                          }
+                        },
+                        {
+                          "key" : "3435",
+                          "doc_count" : 1,
+                          "profit" : {
+                            "value" : 5267024.0
+                          }
+                        },
+                        {
+                          "key" : "357",
+                          "doc_count" : 1,
+                          "profit" : {
+                            "value" : 4346117.0
+                          }
+                        },
+                        {
+                          "key" : "5132",
+                          "doc_count" : 1,
+                          "profit" : {
+                            "value" : 757666.0
+                          }
+                        },
+                        {
+                          "key" : "mfgr",
+                          "doc_count" : 11,
+                          "profit" : {
+                            "value" : 3.1340636E7
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "key" : 1998,
+                    "doc_count" : 6,
+                    "p_brand1" : {
+                      "doc_count_error_upper_bound" : 0,
+                      "sum_other_doc_count" : 0,
+                      "buckets" : [
+                        {
+                          "key" : "1117",
+                          "doc_count" : 1,
+                          "profit" : {
+                            "value" : -79345.0
+                          }
+                        },
+                        {
+                          "key" : "2124",
+                          "doc_count" : 1,
+                          "profit" : {
+                            "value" : 1332721.0
+                          }
+                        },
+                        {
+                          "key" : "3224",
+                          "doc_count" : 1,
+                          "profit" : {
+                            "value" : 2694297.0
+                          }
+                        },
+                        {
+                          "key" : "3239",
+                          "doc_count" : 1,
+                          "profit" : {
+                            "value" : -80906.0
+                          }
+                        },
+                        {
+                          "key" : "5215",
+                          "doc_count" : 1,
+                          "profit" : {
+                            "value" : 4708752.0
+                          }
+                        },
+                        {
+                          "key" : "5333",
+                          "doc_count" : 1,
+                          "profit" : {
+                            "value" : 5613153.0
+                          }
+                        },
+                        {
+                          "key" : "mfgr",
+                          "doc_count" : 6,
+                          "profit" : {
+                            "value" : 1.4188672E7
+                          }
+                        }
+                      ]
+                    }
+                  }
+                ]
+              }
+            }
+          }
+        },
+        {
+          "key" : "st2",
+          "doc_count" : 1,
+          "lineorder" : {
+            "doc_count" : 33,
+            "only_loc" : {
+              "doc_count" : 4,
+              "year" : {
+                "doc_count_error_upper_bound" : 0,
+                "sum_other_doc_count" : 0,
+                "buckets" : [
+                  {
+                    "key" : 1997,
+                    "doc_count" : 2,
+                    "p_brand1" : {
+                      "doc_count_error_upper_bound" : 0,
+                      "sum_other_doc_count" : 0,
+                      "buckets" : [
+                        {
+                          "key" : "343",
+                          "doc_count" : 1,
+                          "profit" : {
+                            "value" : 5455603.0
+                          }
+                        },
+                        {
+                          "key" : "5226",
+                          "doc_count" : 1,
+                          "profit" : {
+                            "value" : 1548687.0
+                          }
+                        },
+                        {
+                          "key" : "mfgr",
+                          "doc_count" : 2,
+                          "profit" : {
+                            "value" : 7004290.0
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "key" : 1998,
+                    "doc_count" : 2,
+                    "p_brand1" : {
+                      "doc_count_error_upper_bound" : 0,
+                      "sum_other_doc_count" : 0,
+                      "buckets" : [
+                        {
+                          "key" : "3334",
+                          "doc_count" : 1,
+                          "profit" : {
+                            "value" : 1583885.0
+                          }
+                        },
+                        {
+                          "key" : "4423",
+                          "doc_count" : 1,
+                          "profit" : {
+                            "value" : -87993.0
+                          }
+                        },
+                        {
+                          "key" : "mfgr",
+                          "doc_count" : 2,
+                          "profit" : {
+                            "value" : 1495892.0
+                          }
+                        }
+                      ]
+                    }
+                  }
+                ]
+              }
+            }
+          }
+        },
+        {
+          "key" : "st3",
+          "doc_count" : 8,
+          "lineorder" : {
+            "doc_count" : 218,
+            "only_loc" : {
+              "doc_count" : 14,
+              "year" : {
+                "doc_count_error_upper_bound" : 0,
+                "sum_other_doc_count" : 0,
+                "buckets" : [
+                  {
+                    "key" : 1997,
+                    "doc_count" : 7,
+                    "p_brand1" : {
+                      "doc_count_error_upper_bound" : 0,
+                      "sum_other_doc_count" : 0,
+                      "buckets" : [
+                        {
+                          "key" : "1328",
+                          "doc_count" : 1,
+                          "profit" : {
+                            "value" : 228482.0
+                          }
+                        },
+                        {
+                          "key" : "141",
+                          "doc_count" : 1,
+                          "profit" : {
+                            "value" : 8143436.0
+                          }
+                        },
+                        {
+                          "key" : "223",
+                          "doc_count" : 1,
+                          "profit" : {
+                            "value" : -94900.0
+                          }
+                        },
+                        {
+                          "key" : "3113",
+                          "doc_count" : 1,
+                          "profit" : {
+                            "value" : 131796.0
+                          }
+                        },
+                        {
+                          "key" : "4228",
+                          "doc_count" : 1,
+                          "profit" : {
+                            "value" : 5327827.0
+                          }
+                        },
+                        {
+                          "key" : "5112",
+                          "doc_count" : 1,
+                          "profit" : {
+                            "value" : 1773871.0
+                          }
+                        },
+                        {
+                          "key" : "5313",
+                          "doc_count" : 1,
+                          "profit" : {
+                            "value" : 3301316.0
+                          }
+                        },
+                        {
+                          "key" : "mfgr",
+                          "doc_count" : 7,
+                          "profit" : {
+                            "value" : 1.8811828E7
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "key" : 1998,
+                    "doc_count" : 7,
+                    "p_brand1" : {
+                      "doc_count_error_upper_bound" : 0,
+                      "sum_other_doc_count" : 0,
+                      "buckets" : [
+                        {
+                          "key" : "231",
+                          "doc_count" : 1,
+                          "profit" : {
+                            "value" : 611392.0
+                          }
+                        },
+                        {
+                          "key" : "2331",
+                          "doc_count" : 1,
+                          "profit" : {
+                            "value" : 1931337.0
+                          }
+                        },
+                        {
+                          "key" : "252",
+                          "doc_count" : 1,
+                          "profit" : {
+                            "value" : 960204.0
+                          }
+                        },
+                        {
+                          "key" : "3131",
+                          "doc_count" : 1,
+                          "profit" : {
+                            "value" : 1429781.0
+                          }
+                        },
+                        {
+                          "key" : "4113",
+                          "doc_count" : 1,
+                          "profit" : {
+                            "value" : -55140.0
+                          }
+                        },
+                        {
+                          "key" : "5232",
+                          "doc_count" : 1,
+                          "profit" : {
+                            "value" : 2452569.0
+                          }
+                        },
+                        {
+                          "key" : "5427",
+                          "doc_count" : 1,
+                          "profit" : {
+                            "value" : 8679918.0
+                          }
+                        },
+                        {
+                          "key" : "mfgr",
+                          "doc_count" : 7,
+                          "profit" : {
+                            "value" : 1.6010061E7
+                          }
+                        }
+                      ]
+                    }
+                  }
+                ]
+              }
+            }
+          }
+        },
+        {
+          "key" : "st4",
+          "doc_count" : 6,
+          "lineorder" : {
+            "doc_count" : 179,
+            "only_loc" : {
+              "doc_count" : 9,
+              "year" : {
+                "doc_count_error_upper_bound" : 0,
+                "sum_other_doc_count" : 0,
+                "buckets" : [
+                  {
+                    "key" : 1997,
+                    "doc_count" : 3,
+                    "p_brand1" : {
+                      "doc_count_error_upper_bound" : 0,
+                      "sum_other_doc_count" : 0,
+                      "buckets" : [
+                        {
+                          "key" : "236",
+                          "doc_count" : 1,
+                          "profit" : {
+                            "value" : 4377617.0
+                          }
+                        },
+                        {
+                          "key" : "4338",
+                          "doc_count" : 1,
+                          "profit" : {
+                            "value" : 5468069.0
+                          }
+                        },
+                        {
+                          "key" : "5125",
+                          "doc_count" : 1,
+                          "profit" : {
+                            "value" : 1095283.0
+                          }
+                        },
+                        {
+                          "key" : "mfgr",
+                          "doc_count" : 3,
+                          "profit" : {
+                            "value" : 1.0940969E7
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "key" : 1998,
+                    "doc_count" : 6,
+                    "p_brand1" : {
+                      "doc_count_error_upper_bound" : 0,
+                      "sum_other_doc_count" : 0,
+                      "buckets" : [
+                        {
+                          "key" : "1114",
+                          "doc_count" : 1,
+                          "profit" : {
+                            "value" : 3017397.0
+                          }
+                        },
+                        {
+                          "key" : "2520",
+                          "doc_count" : 1,
+                          "profit" : {
+                            "value" : 3634282.0
+                          }
+                        },
+                        {
+                          "key" : "3122",
+                          "doc_count" : 1,
+                          "profit" : {
+                            "value" : 2208259.0
+                          }
+                        },
+                        {
+                          "key" : "3140",
+                          "doc_count" : 1,
+                          "profit" : {
+                            "value" : 6351218.0
+                          }
+                        },
+                        {
+                          "key" : "3213",
+                          "doc_count" : 1,
+                          "profit" : {
+                            "value" : 571331.0
+                          }
+                        },
+                        {
+                          "key" : "339",
+                          "doc_count" : 1,
+                          "profit" : {
+                            "value" : 5180816.0
+                          }
+                        },
+                        {
+                          "key" : "mfgr",
+                          "doc_count" : 6,
+                          "profit" : {
+                            "value" : 2.0963303E7
+                          }
+                        }
+                      ]
+                    }
+                  }
+                ]
+              }
+            }
+          }
+        },
+        {
+          "key" : "st5",
+          "doc_count" : 6,
+          "lineorder" : {
+            "doc_count" : 187,
+            "only_loc" : {
+              "doc_count" : 10,
+              "year" : {
+                "doc_count_error_upper_bound" : 0,
+                "sum_other_doc_count" : 0,
+                "buckets" : [
+                  {
+                    "key" : 1997,
+                    "doc_count" : 9,
+                    "p_brand1" : {
+                      "doc_count_error_upper_bound" : 0,
+                      "sum_other_doc_count" : 0,
+                      "buckets" : [
+                        {
+                          "key" : "1121",
+                          "doc_count" : 1,
+                          "profit" : {
+                            "value" : 1963568.0
+                          }
+                        },
+                        {
+                          "key" : "1332",
+                          "doc_count" : 1,
+                          "profit" : {
+                            "value" : 4034957.0
+                          }
+                        },
+                        {
+                          "key" : "2126",
+                          "doc_count" : 1,
+                          "profit" : {
+                            "value" : -110576.0
+                          }
+                        },
+                        {
+                          "key" : "2317",
+                          "doc_count" : 1,
+                          "profit" : {
+                            "value" : 5860588.0
+                          }
+                        },
+                        {
+                          "key" : "3325",
+                          "doc_count" : 1,
+                          "profit" : {
+                            "value" : 4529398.0
+                          }
+                        },
+                        {
+                          "key" : "4112",
+                          "doc_count" : 1,
+                          "profit" : {
+                            "value" : -74660.0
+                          }
+                        },
+                        {
+                          "key" : "4117",
+                          "doc_count" : 1,
+                          "profit" : {
+                            "value" : 271803.0
+                          }
+                        },
+                        {
+                          "key" : "5527",
+                          "doc_count" : 1,
+                          "profit" : {
+                            "value" : 3711298.0
+                          }
+                        },
+                        {
+                          "key" : "5536",
+                          "doc_count" : 1,
+                          "profit" : {
+                            "value" : 1277883.0
+                          }
+                        },
+                        {
+                          "key" : "mfgr",
+                          "doc_count" : 9,
+                          "profit" : {
+                            "value" : 2.1464259E7
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "key" : 1998,
+                    "doc_count" : 1,
+                    "p_brand1" : {
+                      "doc_count_error_upper_bound" : 0,
+                      "sum_other_doc_count" : 0,
+                      "buckets" : [
+                        {
+                          "key" : "5124",
+                          "doc_count" : 1,
+                          "profit" : {
+                            "value" : -78324.0
+                          }
+                        },
+                        {
+                          "key" : "mfgr",
+                          "doc_count" : 1,
+                          "profit" : {
+                            "value" : -78324.0
+                          }
+                        }
+                      ]
+                    }
+                  }
+                ]
+              }
+            }
+          }
+        },
+        {
+          "key" : "st6",
+          "doc_count" : 4,
+          "lineorder" : {
+            "doc_count" : 145,
+            "only_loc" : {
+              "doc_count" : 7,
+              "year" : {
+                "doc_count_error_upper_bound" : 0,
+                "sum_other_doc_count" : 0,
+                "buckets" : [
+                  {
+                    "key" : 1997,
+                    "doc_count" : 3,
+                    "p_brand1" : {
+                      "doc_count_error_upper_bound" : 0,
+                      "sum_other_doc_count" : 0,
+                      "buckets" : [
+                        {
+                          "key" : "413",
+                          "doc_count" : 1,
+                          "profit" : {
+                            "value" : 4242369.0
+                          }
+                        },
+                        {
+                          "key" : "531",
+                          "doc_count" : 1,
+                          "profit" : {
+                            "value" : 3186451.0
+                          }
+                        },
+                        {
+                          "key" : "5529",
+                          "doc_count" : 1,
+                          "profit" : {
+                            "value" : 2240665.0
+                          }
+                        },
+                        {
+                          "key" : "mfgr",
+                          "doc_count" : 3,
+                          "profit" : {
+                            "value" : 9669485.0
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "key" : 1998,
+                    "doc_count" : 4,
+                    "p_brand1" : {
+                      "doc_count_error_upper_bound" : 0,
+                      "sum_other_doc_count" : 0,
+                      "buckets" : [
+                        {
+                          "key" : "2132",
+                          "doc_count" : 1,
+                          "profit" : {
+                            "value" : 2910361.0
+                          }
+                        },
+                        {
+                          "key" : "3215",
+                          "doc_count" : 1,
+                          "profit" : {
+                            "value" : 2975035.0
+                          }
+                        },
+                        {
+                          "key" : "3330",
+                          "doc_count" : 1,
+                          "profit" : {
+                            "value" : -107573.0
+                          }
+                        },
+                        {
+                          "key" : "5237",
+                          "doc_count" : 1,
+                          "profit" : {
+                            "value" : 3634308.0
+                          }
+                        },
+                        {
+                          "key" : "mfgr",
+                          "doc_count" : 4,
+                          "profit" : {
+                            "value" : 9412131.0
+                          }
+                        }
+                      ]
+                    }
+                  }
+                ]
+              }
+            }
+          }
+        },
+        {
+          "key" : "st7",
+          "doc_count" : 7,
+          "lineorder" : {
+            "doc_count" : 207,
+            "only_loc" : {
+              "doc_count" : 12,
+              "year" : {
+                "doc_count_error_upper_bound" : 0,
+                "sum_other_doc_count" : 0,
+                "buckets" : [
+                  {
+                    "key" : 1997,
+                    "doc_count" : 8,
+                    "p_brand1" : {
+                      "doc_count_error_upper_bound" : 0,
+                      "sum_other_doc_count" : 0,
+                      "buckets" : [
+                        {
+                          "key" : "1428",
+                          "doc_count" : 1,
+                          "profit" : {
+                            "value" : -78864.0
+                          }
+                        },
+                        {
+                          "key" : "2113",
+                          "doc_count" : 1,
+                          "profit" : {
+                            "value" : 754785.0
+                          }
+                        },
+                        {
+                          "key" : "2328",
+                          "doc_count" : 1,
+                          "profit" : {
+                            "value" : 5924121.0
+                          }
+                        },
+                        {
+                          "key" : "2519",
+                          "doc_count" : 1,
+                          "profit" : {
+                            "value" : 908661.0
+                          }
+                        },
+                        {
+                          "key" : "3114",
+                          "doc_count" : 1,
+                          "profit" : {
+                            "value" : 1334146.0
+                          }
+                        },
+                        {
+                          "key" : "3239",
+                          "doc_count" : 1,
+                          "profit" : {
+                            "value" : 2944279.0
+                          }
+                        },
+                        {
+                          "key" : "417",
+                          "doc_count" : 1,
+                          "profit" : {
+                            "value" : 2590906.0
+                          }
+                        },
+                        {
+                          "key" : "5519",
+                          "doc_count" : 1,
+                          "profit" : {
+                            "value" : -90276.0
+                          }
+                        },
+                        {
+                          "key" : "mfgr",
+                          "doc_count" : 8,
+                          "profit" : {
+                            "value" : 1.4287758E7
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "key" : 1998,
+                    "doc_count" : 4,
+                    "p_brand1" : {
+                      "doc_count_error_upper_bound" : 0,
+                      "sum_other_doc_count" : 0,
+                      "buckets" : [
+                        {
+                          "key" : "3216",
+                          "doc_count" : 1,
+                          "profit" : {
+                            "value" : 6068956.0
+                          }
+                        },
+                        {
+                          "key" : "3530",
+                          "doc_count" : 1,
+                          "profit" : {
+                            "value" : 2285091.0
+                          }
+                        },
+                        {
+                          "key" : "432",
+                          "doc_count" : 1,
+                          "profit" : {
+                            "value" : 5456493.0
+                          }
+                        },
+                        {
+                          "key" : "5512",
+                          "doc_count" : 1,
+                          "profit" : {
+                            "value" : 4240496.0
+                          }
+                        },
+                        {
+                          "key" : "mfgr",
+                          "doc_count" : 4,
+                          "profit" : {
+                            "value" : 1.8051036E7
+                          }
+                        }
+                      ]
+                    }
+                  }
+                ]
+              }
+            }
+          }
+        },
+        {
+          "key" : "st8",
+          "doc_count" : 3,
+          "lineorder" : {
+            "doc_count" : 95,
+            "only_loc" : {
+              "doc_count" : 8,
+              "year" : {
+                "doc_count_error_upper_bound" : 0,
+                "sum_other_doc_count" : 0,
+                "buckets" : [
+                  {
+                    "key" : 1997,
+                    "doc_count" : 7,
+                    "p_brand1" : {
+                      "doc_count_error_upper_bound" : 0,
+                      "sum_other_doc_count" : 0,
+                      "buckets" : [
+                        {
+                          "key" : "1528",
+                          "doc_count" : 1,
+                          "profit" : {
+                            "value" : 6066113.0
+                          }
+                        },
+                        {
+                          "key" : "2117",
+                          "doc_count" : 1,
+                          "profit" : {
+                            "value" : 7015192.0
+                          }
+                        },
+                        {
+                          "key" : "2433",
+                          "doc_count" : 1,
+                          "profit" : {
+                            "value" : -91297.0
+                          }
+                        },
+                        {
+                          "key" : "3339",
+                          "doc_count" : 1,
+                          "profit" : {
+                            "value" : 4097917.0
+                          }
+                        },
+                        {
+                          "key" : "417",
+                          "doc_count" : 1,
+                          "profit" : {
+                            "value" : 6402977.0
+                          }
+                        },
+                        {
+                          "key" : "4230",
+                          "doc_count" : 1,
+                          "profit" : {
+                            "value" : 4600237.0
+                          }
+                        },
+                        {
+                          "key" : "4329",
+                          "doc_count" : 1,
+                          "profit" : {
+                            "value" : 6545712.0
+                          }
+                        },
+                        {
+                          "key" : "mfgr",
+                          "doc_count" : 7,
+                          "profit" : {
+                            "value" : 3.4636851E7
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "key" : 1998,
+                    "doc_count" : 1,
+                    "p_brand1" : {
+                      "doc_count_error_upper_bound" : 0,
+                      "sum_other_doc_count" : 0,
+                      "buckets" : [
+                        {
+                          "key" : "1329",
+                          "doc_count" : 1,
+                          "profit" : {
+                            "value" : -91297.0
+                          }
+                        },
+                        {
+                          "key" : "mfgr",
+                          "doc_count" : 1,
+                          "profit" : {
+                            "value" : -91297.0
+                          }
+                        }
+                      ]
+                    }
+                  }
+                ]
+              }
+            }
+          }
+        },
+        {
+          "key" : "st9",
+          "doc_count" : 8,
+          "lineorder" : {
+            "doc_count" : 216,
+            "only_loc" : {
+              "doc_count" : 13,
+              "year" : {
+                "doc_count_error_upper_bound" : 0,
+                "sum_other_doc_count" : 0,
+                "buckets" : [
+                  {
+                    "key" : 1997,
+                    "doc_count" : 8,
+                    "p_brand1" : {
+                      "doc_count_error_upper_bound" : 0,
+                      "sum_other_doc_count" : 0,
+                      "buckets" : [
+                        {
+                          "key" : "117",
+                          "doc_count" : 1,
+                          "profit" : {
+                            "value" : 1091502.0
+                          }
+                        },
+                        {
+                          "key" : "1212",
+                          "doc_count" : 1,
+                          "profit" : {
+                            "value" : 6268998.0
+                          }
+                        },
+                        {
+                          "key" : "1321",
+                          "doc_count" : 1,
+                          "profit" : {
+                            "value" : 64892.0
+                          }
+                        },
+                        {
+                          "key" : "1336",
+                          "doc_count" : 1,
+                          "profit" : {
+                            "value" : 3504192.0
+                          }
+                        },
+                        {
+                          "key" : "248",
+                          "doc_count" : 1,
+                          "profit" : {
+                            "value" : 3235361.0
+                          }
+                        },
+                        {
+                          "key" : "4138",
+                          "doc_count" : 1,
+                          "profit" : {
+                            "value" : 838227.0
+                          }
+                        },
+                        {
+                          "key" : "513",
+                          "doc_count" : 1,
+                          "profit" : {
+                            "value" : -113158.0
+                          }
+                        },
+                        {
+                          "key" : "5338",
+                          "doc_count" : 1,
+                          "profit" : {
+                            "value" : 2480969.0
+                          }
+                        },
+                        {
+                          "key" : "mfgr",
+                          "doc_count" : 8,
+                          "profit" : {
+                            "value" : 1.7370983E7
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "key" : 1998,
+                    "doc_count" : 5,
+                    "p_brand1" : {
+                      "doc_count_error_upper_bound" : 0,
+                      "sum_other_doc_count" : 0,
+                      "buckets" : [
+                        {
+                          "key" : "1136",
+                          "doc_count" : 1,
+                          "profit" : {
+                            "value" : 2301489.0
+                          }
+                        },
+                        {
+                          "key" : "3526",
+                          "doc_count" : 1,
+                          "profit" : {
+                            "value" : 1518807.0
+                          }
+                        },
+                        {
+                          "key" : "3527",
+                          "doc_count" : 1,
+                          "profit" : {
+                            "value" : 6211560.0
+                          }
+                        },
+                        {
+                          "key" : "431",
+                          "doc_count" : 1,
+                          "profit" : {
+                            "value" : 5439118.0
+                          }
+                        },
+                        {
+                          "key" : "446",
+                          "doc_count" : 1,
+                          "profit" : {
+                            "value" : -54600.0
+                          }
+                        },
+                        {
+                          "key" : "mfgr",
+                          "doc_count" : 5,
+                          "profit" : {
+                            "value" : 1.5416374E7
+                          }
+                        }
+                      ]
+                    }
+                  }
+                ]
+              }
+            }
+          }
+        },
+        {
+          "key" : "united",
+          "doc_count" : 114,
+          "lineorder" : {
+            "doc_count" : 3400,
+            "only_loc" : {
+              "doc_count" : 201,
+              "year" : {
+                "doc_count_error_upper_bound" : 0,
+                "sum_other_doc_count" : 0,
+                "buckets" : [
+                  {
+                    "key" : 1997,
+                    "doc_count" : 128,
+                    "p_brand1" : {
+                      "doc_count_error_upper_bound" : 0,
+                      "sum_other_doc_count" : 0,
+                      "buckets" : [
+                        {
+                          "key" : "1121",
+                          "doc_count" : 1,
+                          "profit" : {
+                            "value" : 1963568.0
+                          }
+                        },
+                        {
+                          "key" : "115",
+                          "doc_count" : 1,
+                          "profit" : {
+                            "value" : 959027.0
+                          }
+                        },
+                        {
+                          "key" : "117",
+                          "doc_count" : 1,
+                          "profit" : {
+                            "value" : 1091502.0
+                          }
+                        },
+                        {
+                          "key" : "1212",
+                          "doc_count" : 1,
+                          "profit" : {
+                            "value" : 6268998.0
+                          }
+                        },
+                        {
+                          "key" : "132",
+                          "doc_count" : 1,
+                          "profit" : {
+                            "value" : -88354.0
+                          }
+                        },
+                        {
+                          "key" : "1321",
+                          "doc_count" : 1,
+                          "profit" : {
+                            "value" : 64892.0
+                          }
+                        },
+                        {
+                          "key" : "1328",
+                          "doc_count" : 1,
+                          "profit" : {
+                            "value" : 228482.0
+                          }
+                        },
+                        {
+                          "key" : "1332",
+                          "doc_count" : 1,
+                          "profit" : {
+                            "value" : 4034957.0
+                          }
+                        },
+                        {
+                          "key" : "1336",
+                          "doc_count" : 1,
+                          "profit" : {
+                            "value" : 3504192.0
+                          }
+                        },
+                        {
+                          "key" : "141",
+                          "doc_count" : 1,
+                          "profit" : {
+                            "value" : 8143436.0
+                          }
+                        },
+                        {
+                          "key" : "1414",
+                          "doc_count" : 1,
+                          "profit" : {
+                            "value" : 964176.0
+                          }
+                        },
+                        {
+                          "key" : "1428",
+                          "doc_count" : 1,
+                          "profit" : {
+                            "value" : -78864.0
+                          }
+                        },
+                        {
+                          "key" : "1433",
+                          "doc_count" : 1,
+                          "profit" : {
+                            "value" : 4325001.0
+                          }
+                        },
+                        {
+                          "key" : "1437",
+                          "doc_count" : 2,
+                          "profit" : {
+                            "value" : 1164296.0
+                          }
+                        },
+                        {
+                          "key" : "1521",
+                          "doc_count" : 1,
+                          "profit" : {
+                            "value" : 3441254.0
+                          }
+                        },
+                        {
+                          "key" : "1524",
+                          "doc_count" : 1,
+                          "profit" : {
+                            "value" : 2588578.0
+                          }
+                        },
+                        {
+                          "key" : "1528",
+                          "doc_count" : 1,
+                          "profit" : {
+                            "value" : 6066113.0
+                          }
+                        },
+                        {
+                          "key" : "2113",
+                          "doc_count" : 1,
+                          "profit" : {
+                            "value" : 754785.0
+                          }
+                        },
+                        {
+                          "key" : "2117",
+                          "doc_count" : 1,
+                          "profit" : {
+                            "value" : 7015192.0
+                          }
+                        },
+                        {
+                          "key" : "2126",
+                          "doc_count" : 1,
+                          "profit" : {
+                            "value" : -110576.0
+                          }
+                        },
+                        {
+                          "key" : "2129",
+                          "doc_count" : 1,
+                          "profit" : {
+                            "value" : -55921.0
+                          }
+                        },
+                        {
+                          "key" : "2132",
+                          "doc_count" : 1,
+                          "profit" : {
+                            "value" : -75741.0
+                          }
+                        },
+                        {
+                          "key" : "216",
+                          "doc_count" : 1,
+                          "profit" : {
+                            "value" : 3731667.0
+                          }
+                        },
+                        {
+                          "key" : "217",
+                          "doc_count" : 1,
+                          "profit" : {
+                            "value" : 1277313.0
+                          }
+                        },
+                        {
+                          "key" : "2210",
+                          "doc_count" : 1,
+                          "profit" : {
+                            "value" : -92858.0
+                          }
+                        },
+                        {
+                          "key" : "2215",
+                          "doc_count" : 1,
+                          "profit" : {
+                            "value" : 4680137.0
+                          }
+                        },
+                        {
+                          "key" : "2216",
+                          "doc_count" : 1,
+                          "profit" : {
+                            "value" : -62468.0
+                          }
+                        },
+                        {
+                          "key" : "223",
+                          "doc_count" : 1,
+                          "profit" : {
+                            "value" : -94900.0
+                          }
+                        },
+                        {
+                          "key" : "2231",
+                          "doc_count" : 1,
+                          "profit" : {
+                            "value" : 4488895.0
+                          }
+                        },
+                        {
+                          "key" : "225",
+                          "doc_count" : 1,
+                          "profit" : {
+                            "value" : 1293342.0
+                          }
+                        },
+                        {
+                          "key" : "231",
+                          "doc_count" : 1,
+                          "profit" : {
+                            "value" : 1287092.0
+                          }
+                        },
+                        {
+                          "key" : "2316",
+                          "doc_count" : 1,
+                          "profit" : {
+                            "value" : -78144.0
+                          }
+                        },
+                        {
+                          "key" : "2317",
+                          "doc_count" : 1,
+                          "profit" : {
+                            "value" : 5860588.0
+                          }
+                        },
+                        {
+                          "key" : "2328",
+                          "doc_count" : 1,
+                          "profit" : {
+                            "value" : 5924121.0
+                          }
+                        },
+                        {
+                          "key" : "236",
+                          "doc_count" : 1,
+                          "profit" : {
+                            "value" : 4377617.0
+                          }
+                        },
+                        {
+                          "key" : "2423",
+                          "doc_count" : 1,
+                          "profit" : {
+                            "value" : 6703205.0
+                          }
+                        },
+                        {
+                          "key" : "2424",
+                          "doc_count" : 1,
+                          "profit" : {
+                            "value" : -73098.0
+                          }
+                        },
+                        {
+                          "key" : "2433",
+                          "doc_count" : 2,
+                          "profit" : {
+                            "value" : 2280289.0
+                          }
+                        },
+                        {
+                          "key" : "2440",
+                          "doc_count" : 1,
+                          "profit" : {
+                            "value" : -69975.0
+                          }
+                        },
+                        {
+                          "key" : "248",
+                          "doc_count" : 2,
+                          "profit" : {
+                            "value" : 4477775.0
+                          }
+                        },
+                        {
+                          "key" : "2519",
+                          "doc_count" : 1,
+                          "profit" : {
+                            "value" : 908661.0
+                          }
+                        },
+                        {
+                          "key" : "2527",
+                          "doc_count" : 1,
+                          "profit" : {
+                            "value" : -110395.0
+                          }
+                        },
+                        {
+                          "key" : "253",
+                          "doc_count" : 1,
+                          "profit" : {
+                            "value" : 4835157.0
+                          }
+                        },
+                        {
+                          "key" : "2531",
+                          "doc_count" : 1,
+                          "profit" : {
+                            "value" : 4783529.0
+                          }
+                        },
+                        {
+                          "key" : "255",
+                          "doc_count" : 1,
+                          "profit" : {
+                            "value" : -69615.0
+                          }
+                        },
+                        {
+                          "key" : "311",
+                          "doc_count" : 1,
+                          "profit" : {
+                            "value" : -94059.0
+                          }
+                        },
+                        {
+                          "key" : "3113",
+                          "doc_count" : 1,
+                          "profit" : {
+                            "value" : 131796.0
+                          }
+                        },
+                        {
+                          "key" : "3114",
+                          "doc_count" : 1,
+                          "profit" : {
+                            "value" : 1334146.0
+                          }
+                        },
+                        {
+                          "key" : "3115",
+                          "doc_count" : 1,
+                          "profit" : {
+                            "value" : 2700480.0
+                          }
+                        },
+                        {
+                          "key" : "3125",
+                          "doc_count" : 2,
+                          "profit" : {
+                            "value" : 4115293.0
+                          }
+                        },
+                        {
+                          "key" : "3129",
+                          "doc_count" : 1,
+                          "profit" : {
+                            "value" : 3423308.0
+                          }
+                        },
+                        {
+                          "key" : "313",
+                          "doc_count" : 1,
+                          "profit" : {
+                            "value" : 4936987.0
+                          }
+                        },
+                        {
+                          "key" : "3213",
+                          "doc_count" : 1,
+                          "profit" : {
+                            "value" : 5614646.0
+                          }
+                        },
+                        {
+                          "key" : "3222",
+                          "doc_count" : 1,
+                          "profit" : {
+                            "value" : -64210.0
+                          }
+                        },
+                        {
+                          "key" : "3239",
+                          "doc_count" : 1,
+                          "profit" : {
+                            "value" : 2944279.0
+                          }
+                        },
+                        {
+                          "key" : "3240",
+                          "doc_count" : 2,
+                          "profit" : {
+                            "value" : 3292928.0
+                          }
+                        },
+                        {
+                          "key" : "325",
+                          "doc_count" : 1,
+                          "profit" : {
+                            "value" : 1229752.0
+                          }
+                        },
+                        {
+                          "key" : "3325",
+                          "doc_count" : 1,
+                          "profit" : {
+                            "value" : 4529398.0
+                          }
+                        },
+                        {
+                          "key" : "3333",
+                          "doc_count" : 1,
+                          "profit" : {
+                            "value" : 3918085.0
+                          }
+                        },
+                        {
+                          "key" : "3339",
+                          "doc_count" : 1,
+                          "profit" : {
+                            "value" : 4097917.0
+                          }
+                        },
+                        {
+                          "key" : "335",
+                          "doc_count" : 1,
+                          "profit" : {
+                            "value" : 2413988.0
+                          }
+                        },
+                        {
+                          "key" : "3410",
+                          "doc_count" : 1,
+                          "profit" : {
+                            "value" : 4894822.0
+                          }
+                        },
+                        {
+                          "key" : "3414",
+                          "doc_count" : 1,
+                          "profit" : {
+                            "value" : -79345.0
+                          }
+                        },
+                        {
+                          "key" : "3416",
+                          "doc_count" : 1,
+                          "profit" : {
+                            "value" : 2942397.0
+                          }
+                        },
+                        {
+                          "key" : "343",
+                          "doc_count" : 2,
+                          "profit" : {
+                            "value" : 5934536.0
+                          }
+                        },
+                        {
+                          "key" : "3435",
+                          "doc_count" : 1,
+                          "profit" : {
+                            "value" : 5267024.0
+                          }
+                        },
+                        {
+                          "key" : "3436",
+                          "doc_count" : 1,
+                          "profit" : {
+                            "value" : 1503990.0
+                          }
+                        },
+                        {
+                          "key" : "3438",
+                          "doc_count" : 1,
+                          "profit" : {
+                            "value" : 1130826.0
+                          }
+                        },
+                        {
+                          "key" : "3516",
+                          "doc_count" : 1,
+                          "profit" : {
+                            "value" : -94360.0
+                          }
+                        },
+                        {
+                          "key" : "3519",
+                          "doc_count" : 1,
+                          "profit" : {
+                            "value" : 4033865.0
+                          }
+                        },
+                        {
+                          "key" : "3527",
+                          "doc_count" : 1,
+                          "profit" : {
+                            "value" : -82888.0
+                          }
+                        },
+                        {
+                          "key" : "3534",
+                          "doc_count" : 1,
+                          "profit" : {
+                            "value" : 3315588.0
+                          }
+                        },
+                        {
+                          "key" : "3536",
+                          "doc_count" : 1,
+                          "profit" : {
+                            "value" : 6858514.0
+                          }
+                        },
+                        {
+                          "key" : "357",
+                          "doc_count" : 1,
+                          "profit" : {
+                            "value" : 4346117.0
+                          }
+                        },
+                        {
+                          "key" : "4112",
+                          "doc_count" : 2,
+                          "profit" : {
+                            "value" : 1004238.0
+                          }
+                        },
+                        {
+                          "key" : "4117",
+                          "doc_count" : 1,
+                          "profit" : {
+                            "value" : 271803.0
+                          }
+                        },
+                        {
+                          "key" : "4126",
+                          "doc_count" : 1,
+                          "profit" : {
+                            "value" : 1945016.0
+                          }
+                        },
+                        {
+                          "key" : "413",
+                          "doc_count" : 1,
+                          "profit" : {
+                            "value" : 4242369.0
+                          }
+                        },
+                        {
+                          "key" : "4138",
+                          "doc_count" : 1,
+                          "profit" : {
+                            "value" : 838227.0
+                          }
+                        },
+                        {
+                          "key" : "4139",
+                          "doc_count" : 1,
+                          "profit" : {
+                            "value" : 5692855.0
+                          }
+                        },
+                        {
+                          "key" : "4140",
+                          "doc_count" : 2,
+                          "profit" : {
+                            "value" : 3673171.0
+                          }
+                        },
+                        {
+                          "key" : "417",
+                          "doc_count" : 2,
+                          "profit" : {
+                            "value" : 8993883.0
+                          }
+                        },
+                        {
+                          "key" : "419",
+                          "doc_count" : 1,
+                          "profit" : {
+                            "value" : 1451082.0
+                          }
+                        },
+                        {
+                          "key" : "4220",
+                          "doc_count" : 1,
+                          "profit" : {
+                            "value" : 2584433.0
+                          }
+                        },
+                        {
+                          "key" : "4228",
+                          "doc_count" : 1,
+                          "profit" : {
+                            "value" : 5327827.0
+                          }
+                        },
+                        {
+                          "key" : "4230",
+                          "doc_count" : 1,
+                          "profit" : {
+                            "value" : 4600237.0
+                          }
+                        },
+                        {
+                          "key" : "427",
+                          "doc_count" : 1,
+                          "profit" : {
+                            "value" : 3974256.0
+                          }
+                        },
+                        {
+                          "key" : "4316",
+                          "doc_count" : 1,
+                          "profit" : {
+                            "value" : 1810955.0
+                          }
+                        },
+                        {
+                          "key" : "4329",
+                          "doc_count" : 1,
+                          "profit" : {
+                            "value" : 6545712.0
+                          }
+                        },
+                        {
+                          "key" : "433",
+                          "doc_count" : 1,
+                          "profit" : {
+                            "value" : 814137.0
+                          }
+                        },
+                        {
+                          "key" : "4336",
+                          "doc_count" : 1,
+                          "profit" : {
+                            "value" : -83068.0
+                          }
+                        },
+                        {
+                          "key" : "4338",
+                          "doc_count" : 1,
+                          "profit" : {
+                            "value" : 5468069.0
+                          }
+                        },
+                        {
+                          "key" : "4510",
+                          "doc_count" : 2,
+                          "profit" : {
+                            "value" : 1.2066243E7
+                          }
+                        },
+                        {
+                          "key" : "4536",
+                          "doc_count" : 1,
+                          "profit" : {
+                            "value" : 654660.0
+                          }
+                        },
+                        {
+                          "key" : "5112",
+                          "doc_count" : 1,
+                          "profit" : {
+                            "value" : 1773871.0
+                          }
+                        },
+                        {
+                          "key" : "5125",
+                          "doc_count" : 1,
+                          "profit" : {
+                            "value" : 1095283.0
+                          }
+                        },
+                        {
+                          "key" : "513",
+                          "doc_count" : 2,
+                          "profit" : {
+                            "value" : 2147989.0
+                          }
+                        },
+                        {
+                          "key" : "5132",
+                          "doc_count" : 1,
+                          "profit" : {
+                            "value" : 757666.0
+                          }
+                        },
+                        {
+                          "key" : "5136",
+                          "doc_count" : 1,
+                          "profit" : {
+                            "value" : 2327258.0
+                          }
+                        },
+                        {
+                          "key" : "5138",
+                          "doc_count" : 1,
+                          "profit" : {
+                            "value" : 695019.0
+                          }
+                        },
+                        {
+                          "key" : "514",
+                          "doc_count" : 1,
+                          "profit" : {
+                            "value" : 5248170.0
+                          }
+                        },
+                        {
+                          "key" : "5213",
+                          "doc_count" : 1,
+                          "profit" : {
+                            "value" : -65170.0
+                          }
+                        },
+                        {
+                          "key" : "5215",
+                          "doc_count" : 1,
+                          "profit" : {
+                            "value" : -83068.0
+                          }
+                        },
+                        {
+                          "key" : "5226",
+                          "doc_count" : 1,
+                          "profit" : {
+                            "value" : 1548687.0
+                          }
+                        },
+                        {
+                          "key" : "523",
+                          "doc_count" : 1,
+                          "profit" : {
+                            "value" : 3626934.0
+                          }
+                        },
+                        {
+                          "key" : "531",
+                          "doc_count" : 1,
+                          "profit" : {
+                            "value" : 3186451.0
+                          }
+                        },
+                        {
+                          "key" : "5313",
+                          "doc_count" : 1,
+                          "profit" : {
+                            "value" : 3301316.0
+                          }
+                        },
+                        {
+                          "key" : "5320",
+                          "doc_count" : 1,
+                          "profit" : {
+                            "value" : 5557303.0
+                          }
+                        },
+                        {
+                          "key" : "5324",
+                          "doc_count" : 1,
+                          "profit" : {
+                            "value" : 3824990.0
+                          }
+                        },
+                        {
+                          "key" : "5329",
+                          "doc_count" : 1,
+                          "profit" : {
+                            "value" : -89495.0
+                          }
+                        },
+                        {
+                          "key" : "5331",
+                          "doc_count" : 1,
+                          "profit" : {
+                            "value" : 4130442.0
+                          }
+                        },
+                        {
+                          "key" : "5338",
+                          "doc_count" : 1,
+                          "profit" : {
+                            "value" : 2480969.0
+                          }
+                        },
+                        {
+                          "key" : "5411",
+                          "doc_count" : 1,
+                          "profit" : {
+                            "value" : 944176.0
+                          }
+                        },
+                        {
+                          "key" : "5519",
+                          "doc_count" : 1,
+                          "profit" : {
+                            "value" : -90276.0
+                          }
+                        },
+                        {
+                          "key" : "5527",
+                          "doc_count" : 1,
+                          "profit" : {
+                            "value" : 3711298.0
+                          }
+                        },
+                        {
+                          "key" : "5529",
+                          "doc_count" : 1,
+                          "profit" : {
+                            "value" : 2240665.0
+                          }
+                        },
+                        {
+                          "key" : "5536",
+                          "doc_count" : 1,
+                          "profit" : {
+                            "value" : 1277883.0
+                          }
+                        },
+                        {
+                          "key" : "mfgr",
+                          "doc_count" : 128,
+                          "profit" : {
+                            "value" : 3.14347214E8
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "key" : 1998,
+                    "doc_count" : 73,
+                    "p_brand1" : {
+                      "doc_count_error_upper_bound" : 0,
+                      "sum_other_doc_count" : 0,
+                      "buckets" : [
+                        {
+                          "key" : "1114",
+                          "doc_count" : 1,
+                          "profit" : {
+                            "value" : 3017397.0
+                          }
+                        },
+                        {
+                          "key" : "1117",
+                          "doc_count" : 1,
+                          "profit" : {
+                            "value" : -79345.0
+                          }
+                        },
+                        {
+                          "key" : "1123",
+                          "doc_count" : 1,
+                          "profit" : {
+                            "value" : 3192003.0
+                          }
+                        },
+                        {
+                          "key" : "1136",
+                          "doc_count" : 1,
+                          "profit" : {
+                            "value" : 2301489.0
+                          }
+                        },
+                        {
+                          "key" : "1139",
+                          "doc_count" : 1,
+                          "profit" : {
+                            "value" : -69615.0
+                          }
+                        },
+                        {
+                          "key" : "1225",
+                          "doc_count" : 1,
+                          "profit" : {
+                            "value" : 1003131.0
+                          }
+                        },
+                        {
+                          "key" : "1329",
+                          "doc_count" : 1,
+                          "profit" : {
+                            "value" : -91297.0
+                          }
+                        },
+                        {
+                          "key" : "136",
+                          "doc_count" : 1,
+                          "profit" : {
+                            "value" : 4251376.0
+                          }
+                        },
+                        {
+                          "key" : "141",
+                          "doc_count" : 1,
+                          "profit" : {
+                            "value" : 5820137.0
+                          }
+                        },
+                        {
+                          "key" : "1414",
+                          "doc_count" : 1,
+                          "profit" : {
+                            "value" : 6329250.0
+                          }
+                        },
+                        {
+                          "key" : "1418",
+                          "doc_count" : 1,
+                          "profit" : {
+                            "value" : 6586578.0
+                          }
+                        },
+                        {
+                          "key" : "1427",
+                          "doc_count" : 1,
+                          "profit" : {
+                            "value" : 4708218.0
+                          }
+                        },
+                        {
+                          "key" : "1514",
+                          "doc_count" : 1,
+                          "profit" : {
+                            "value" : 3050856.0
+                          }
+                        },
+                        {
+                          "key" : "2124",
+                          "doc_count" : 1,
+                          "profit" : {
+                            "value" : 1332721.0
+                          }
+                        },
+                        {
+                          "key" : "2132",
+                          "doc_count" : 1,
+                          "profit" : {
+                            "value" : 2910361.0
+                          }
+                        },
+                        {
+                          "key" : "2134",
+                          "doc_count" : 1,
+                          "profit" : {
+                            "value" : 1628099.0
+                          }
+                        },
+                        {
+                          "key" : "229",
+                          "doc_count" : 1,
+                          "profit" : {
+                            "value" : 74100.0
+                          }
+                        },
+                        {
+                          "key" : "231",
+                          "doc_count" : 1,
+                          "profit" : {
+                            "value" : 611392.0
+                          }
+                        },
+                        {
+                          "key" : "2331",
+                          "doc_count" : 1,
+                          "profit" : {
+                            "value" : 1931337.0
+                          }
+                        },
+                        {
+                          "key" : "2435",
+                          "doc_count" : 1,
+                          "profit" : {
+                            "value" : -66972.0
+                          }
+                        },
+                        {
+                          "key" : "2517",
+                          "doc_count" : 1,
+                          "profit" : {
+                            "value" : 119792.0
+                          }
+                        },
+                        {
+                          "key" : "252",
+                          "doc_count" : 1,
+                          "profit" : {
+                            "value" : 960204.0
+                          }
+                        },
+                        {
+                          "key" : "2520",
+                          "doc_count" : 1,
+                          "profit" : {
+                            "value" : 3634282.0
+                          }
+                        },
+                        {
+                          "key" : "3119",
+                          "doc_count" : 2,
+                          "profit" : {
+                            "value" : 1243753.0
+                          }
+                        },
+                        {
+                          "key" : "3122",
+                          "doc_count" : 1,
+                          "profit" : {
+                            "value" : 2208259.0
+                          }
+                        },
+                        {
+                          "key" : "3131",
+                          "doc_count" : 2,
+                          "profit" : {
+                            "value" : 6682980.0
+                          }
+                        },
+                        {
+                          "key" : "3140",
+                          "doc_count" : 1,
+                          "profit" : {
+                            "value" : 6351218.0
+                          }
+                        },
+                        {
+                          "key" : "3213",
+                          "doc_count" : 1,
+                          "profit" : {
+                            "value" : 571331.0
+                          }
+                        },
+                        {
+                          "key" : "3215",
+                          "doc_count" : 1,
+                          "profit" : {
+                            "value" : 2975035.0
+                          }
+                        },
+                        {
+                          "key" : "3216",
+                          "doc_count" : 1,
+                          "profit" : {
+                            "value" : 6068956.0
+                          }
+                        },
+                        {
+                          "key" : "3217",
+                          "doc_count" : 1,
+                          "profit" : {
+                            "value" : 4055634.0
+                          }
+                        },
+                        {
+                          "key" : "3224",
+                          "doc_count" : 1,
+                          "profit" : {
+                            "value" : 2694297.0
+                          }
+                        },
+                        {
+                          "key" : "3227",
+                          "doc_count" : 1,
+                          "profit" : {
+                            "value" : -92858.0
+                          }
+                        },
+                        {
+                          "key" : "3232",
+                          "doc_count" : 1,
+                          "profit" : {
+                            "value" : 1761139.0
+                          }
+                        },
+                        {
+                          "key" : "3234",
+                          "doc_count" : 1,
+                          "profit" : {
+                            "value" : 4853252.0
+                          }
+                        },
+                        {
+                          "key" : "3239",
+                          "doc_count" : 1,
+                          "profit" : {
+                            "value" : -80906.0
+                          }
+                        },
+                        {
+                          "key" : "3330",
+                          "doc_count" : 1,
+                          "profit" : {
+                            "value" : -107573.0
+                          }
+                        },
+                        {
+                          "key" : "3333",
+                          "doc_count" : 1,
+                          "profit" : {
+                            "value" : 1782594.0
+                          }
+                        },
+                        {
+                          "key" : "3334",
+                          "doc_count" : 1,
+                          "profit" : {
+                            "value" : 1583885.0
+                          }
+                        },
+                        {
+                          "key" : "339",
+                          "doc_count" : 1,
+                          "profit" : {
+                            "value" : 5180816.0
+                          }
+                        },
+                        {
+                          "key" : "3526",
+                          "doc_count" : 1,
+                          "profit" : {
+                            "value" : 1518807.0
+                          }
+                        },
+                        {
+                          "key" : "3527",
+                          "doc_count" : 1,
+                          "profit" : {
+                            "value" : 6211560.0
+                          }
+                        },
+                        {
+                          "key" : "3530",
+                          "doc_count" : 1,
+                          "profit" : {
+                            "value" : 2285091.0
+                          }
+                        },
+                        {
+                          "key" : "4113",
+                          "doc_count" : 1,
+                          "profit" : {
+                            "value" : -55140.0
+                          }
+                        },
+                        {
+                          "key" : "4126",
+                          "doc_count" : 1,
+                          "profit" : {
+                            "value" : 5613344.0
+                          }
+                        },
+                        {
+                          "key" : "4137",
+                          "doc_count" : 1,
+                          "profit" : {
+                            "value" : -66132.0
+                          }
+                        },
+                        {
+                          "key" : "417",
+                          "doc_count" : 1,
+                          "profit" : {
+                            "value" : 1215994.0
+                          }
+                        },
+                        {
+                          "key" : "4225",
+                          "doc_count" : 1,
+                          "profit" : {
+                            "value" : 962360.0
+                          }
+                        },
+                        {
+                          "key" : "4234",
+                          "doc_count" : 1,
+                          "profit" : {
+                            "value" : 2145684.0
+                          }
+                        },
+                        {
+                          "key" : "426",
+                          "doc_count" : 1,
+                          "profit" : {
+                            "value" : 2078270.0
+                          }
+                        },
+                        {
+                          "key" : "431",
+                          "doc_count" : 1,
+                          "profit" : {
+                            "value" : 5439118.0
+                          }
+                        },
+                        {
+                          "key" : "4314",
+                          "doc_count" : 1,
+                          "profit" : {
+                            "value" : 1493682.0
+                          }
+                        },
+                        {
+                          "key" : "432",
+                          "doc_count" : 1,
+                          "profit" : {
+                            "value" : 5456493.0
+                          }
+                        },
+                        {
+                          "key" : "4336",
+                          "doc_count" : 1,
+                          "profit" : {
+                            "value" : 5434734.0
+                          }
+                        },
+                        {
+                          "key" : "4419",
+                          "doc_count" : 1,
+                          "profit" : {
+                            "value" : 932137.0
+                          }
+                        },
+                        {
+                          "key" : "4423",
+                          "doc_count" : 1,
+                          "profit" : {
+                            "value" : -87993.0
+                          }
+                        },
+                        {
+                          "key" : "446",
+                          "doc_count" : 1,
+                          "profit" : {
+                            "value" : -54600.0
+                          }
+                        },
+                        {
+                          "key" : "448",
+                          "doc_count" : 1,
+                          "profit" : {
+                            "value" : 2532140.0
+                          }
+                        },
+                        {
+                          "key" : "459",
+                          "doc_count" : 1,
+                          "profit" : {
+                            "value" : 2495636.0
+                          }
+                        },
+                        {
+                          "key" : "5124",
+                          "doc_count" : 1,
+                          "profit" : {
+                            "value" : -78324.0
+                          }
+                        },
+                        {
+                          "key" : "514",
+                          "doc_count" : 1,
+                          "profit" : {
+                            "value" : 3326442.0
+                          }
+                        },
+                        {
+                          "key" : "5215",
+                          "doc_count" : 1,
+                          "profit" : {
+                            "value" : 4708752.0
+                          }
+                        },
+                        {
+                          "key" : "5232",
+                          "doc_count" : 1,
+                          "profit" : {
+                            "value" : 2452569.0
+                          }
+                        },
+                        {
+                          "key" : "5237",
+                          "doc_count" : 1,
+                          "profit" : {
+                            "value" : 3634308.0
+                          }
+                        },
+                        {
+                          "key" : "5333",
+                          "doc_count" : 1,
+                          "profit" : {
+                            "value" : 5613153.0
+                          }
+                        },
+                        {
+                          "key" : "5336",
+                          "doc_count" : 1,
+                          "profit" : {
+                            "value" : 6638199.0
+                          }
+                        },
+                        {
+                          "key" : "537",
+                          "doc_count" : 1,
+                          "profit" : {
+                            "value" : 1232191.0
+                          }
+                        },
+                        {
+                          "key" : "5427",
+                          "doc_count" : 1,
+                          "profit" : {
+                            "value" : 8679918.0
+                          }
+                        },
+                        {
+                          "key" : "5510",
+                          "doc_count" : 1,
+                          "profit" : {
+                            "value" : 377441.0
+                          }
+                        },
+                        {
+                          "key" : "5512",
+                          "doc_count" : 1,
+                          "profit" : {
+                            "value" : 4240496.0
+                          }
+                        },
+                        {
+                          "key" : "5533",
+                          "doc_count" : 1,
+                          "profit" : {
+                            "value" : 3897828.0
+                          }
+                        },
+                        {
+                          "key" : "mfgr",
+                          "doc_count" : 73,
+                          "profit" : {
+                            "value" : 1.91161464E8
+                          }
+                        }
+                      ]
+                    }
+                  }
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  }
+}

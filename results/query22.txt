@@ -1,0 +1,592 @@
+{
+  "took" : 10,
+  "timed_out" : false,
+  "_shards" : {
+    "total" : 1,
+    "successful" : 1,
+    "skipped" : 0,
+    "failed" : 0
+  },
+  "hits" : {
+    "total" : {
+      "value" : 449,
+      "relation" : "eq"
+    },
+    "max_score" : null,
+    "hits" : [ ]
+  },
+  "aggregations" : {
+    "lineorder" : {
+      "doc_count" : 13559,
+      "only_loc" : {
+        "doc_count" : 13559,
+        "group_by_year" : {
+          "doc_count_error_upper_bound" : 0,
+          "sum_other_doc_count" : 0,
+          "buckets" : [
+            {
+              "key" : 1992,
+              "doc_count" : 2066,
+              "group_by_brand" : {
+                "doc_count_error_upper_bound" : 0,
+                "sum_other_doc_count" : 4113,
+                "buckets" : [
+                  {
+                    "key" : "111",
+                    "doc_count" : 2,
+                    "sum_revenue" : {
+                      "value" : 5099825.0
+                    }
+                  },
+                  {
+                    "key" : "1110",
+                    "doc_count" : 1,
+                    "sum_revenue" : {
+                      "value" : 4853355.0
+                    }
+                  },
+                  {
+                    "key" : "1111",
+                    "doc_count" : 2,
+                    "sum_revenue" : {
+                      "value" : 1348835.0
+                    }
+                  },
+                  {
+                    "key" : "1112",
+                    "doc_count" : 1,
+                    "sum_revenue" : {
+                      "value" : 5720116.0
+                    }
+                  },
+                  {
+                    "key" : "1113",
+                    "doc_count" : 2,
+                    "sum_revenue" : {
+                      "value" : 4986926.0
+                    }
+                  },
+                  {
+                    "key" : "1114",
+                    "doc_count" : 4,
+                    "sum_revenue" : {
+                      "value" : 1.1468142E7
+                    }
+                  },
+                  {
+                    "key" : "1115",
+                    "doc_count" : 3,
+                    "sum_revenue" : {
+                      "value" : 246545.0
+                    }
+                  },
+                  {
+                    "key" : "1117",
+                    "doc_count" : 1,
+                    "sum_revenue" : {
+                      "value" : 3507541.0
+                    }
+                  },
+                  {
+                    "key" : "1120",
+                    "doc_count" : 1,
+                    "sum_revenue" : {
+                      "value" : 4166350.0
+                    }
+                  },
+                  {
+                    "key" : "1121",
+                    "doc_count" : 2,
+                    "sum_revenue" : {
+                      "value" : 6673557.0
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "key" : 1993,
+              "doc_count" : 2158,
+              "group_by_brand" : {
+                "doc_count_error_upper_bound" : 0,
+                "sum_other_doc_count" : 4280,
+                "buckets" : [
+                  {
+                    "key" : "111",
+                    "doc_count" : 2,
+                    "sum_revenue" : {
+                      "value" : 4583163.0
+                    }
+                  },
+                  {
+                    "key" : "1110",
+                    "doc_count" : 1,
+                    "sum_revenue" : {
+                      "value" : 6181882.0
+                    }
+                  },
+                  {
+                    "key" : "1111",
+                    "doc_count" : 4,
+                    "sum_revenue" : {
+                      "value" : 1.288669E7
+                    }
+                  },
+                  {
+                    "key" : "1112",
+                    "doc_count" : 1,
+                    "sum_revenue" : {
+                      "value" : 0.0
+                    }
+                  },
+                  {
+                    "key" : "1113",
+                    "doc_count" : 7,
+                    "sum_revenue" : {
+                      "value" : 2.5262755E7
+                    }
+                  },
+                  {
+                    "key" : "1114",
+                    "doc_count" : 4,
+                    "sum_revenue" : {
+                      "value" : 1.5370803E7
+                    }
+                  },
+                  {
+                    "key" : "1115",
+                    "doc_count" : 4,
+                    "sum_revenue" : {
+                      "value" : 7670279.0
+                    }
+                  },
+                  {
+                    "key" : "1119",
+                    "doc_count" : 5,
+                    "sum_revenue" : {
+                      "value" : 1.0643395E7
+                    }
+                  },
+                  {
+                    "key" : "1120",
+                    "doc_count" : 1,
+                    "sum_revenue" : {
+                      "value" : 3304944.0
+                    }
+                  },
+                  {
+                    "key" : "1121",
+                    "doc_count" : 7,
+                    "sum_revenue" : {
+                      "value" : 2.2701691E7
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "key" : 1994,
+              "doc_count" : 2049,
+              "group_by_brand" : {
+                "doc_count_error_upper_bound" : 0,
+                "sum_other_doc_count" : 4065,
+                "buckets" : [
+                  {
+                    "key" : "111",
+                    "doc_count" : 5,
+                    "sum_revenue" : {
+                      "value" : 1.9485692E7
+                    }
+                  },
+                  {
+                    "key" : "1110",
+                    "doc_count" : 2,
+                    "sum_revenue" : {
+                      "value" : 5640121.0
+                    }
+                  },
+                  {
+                    "key" : "1111",
+                    "doc_count" : 4,
+                    "sum_revenue" : {
+                      "value" : 1.1066662E7
+                    }
+                  },
+                  {
+                    "key" : "1112",
+                    "doc_count" : 2,
+                    "sum_revenue" : {
+                      "value" : 979790.0
+                    }
+                  },
+                  {
+                    "key" : "1113",
+                    "doc_count" : 5,
+                    "sum_revenue" : {
+                      "value" : 1.7001921E7
+                    }
+                  },
+                  {
+                    "key" : "1114",
+                    "doc_count" : 7,
+                    "sum_revenue" : {
+                      "value" : 3.9591405E7
+                    }
+                  },
+                  {
+                    "key" : "1115",
+                    "doc_count" : 1,
+                    "sum_revenue" : {
+                      "value" : 3736395.0
+                    }
+                  },
+                  {
+                    "key" : "1117",
+                    "doc_count" : 2,
+                    "sum_revenue" : {
+                      "value" : 4157237.0
+                    }
+                  },
+                  {
+                    "key" : "1119",
+                    "doc_count" : 2,
+                    "sum_revenue" : {
+                      "value" : 9563864.0
+                    }
+                  },
+                  {
+                    "key" : "1121",
+                    "doc_count" : 3,
+                    "sum_revenue" : {
+                      "value" : 1.5901664E7
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "key" : 1995,
+              "doc_count" : 2036,
+              "group_by_brand" : {
+                "doc_count_error_upper_bound" : 0,
+                "sum_other_doc_count" : 4049,
+                "buckets" : [
+                  {
+                    "key" : "111",
+                    "doc_count" : 2,
+                    "sum_revenue" : {
+                      "value" : 1886166.0
+                    }
+                  },
+                  {
+                    "key" : "1110",
+                    "doc_count" : 2,
+                    "sum_revenue" : {
+                      "value" : 1598544.0
+                    }
+                  },
+                  {
+                    "key" : "1111",
+                    "doc_count" : 3,
+                    "sum_revenue" : {
+                      "value" : 1.0532817E7
+                    }
+                  },
+                  {
+                    "key" : "1112",
+                    "doc_count" : 2,
+                    "sum_revenue" : {
+                      "value" : 6294987.0
+                    }
+                  },
+                  {
+                    "key" : "1113",
+                    "doc_count" : 3,
+                    "sum_revenue" : {
+                      "value" : 1.1545333E7
+                    }
+                  },
+                  {
+                    "key" : "1114",
+                    "doc_count" : 1,
+                    "sum_revenue" : {
+                      "value" : 6312651.0
+                    }
+                  },
+                  {
+                    "key" : "1115",
+                    "doc_count" : 3,
+                    "sum_revenue" : {
+                      "value" : 1.3748758E7
+                    }
+                  },
+                  {
+                    "key" : "1117",
+                    "doc_count" : 1,
+                    "sum_revenue" : {
+                      "value" : 3419883.0
+                    }
+                  },
+                  {
+                    "key" : "1120",
+                    "doc_count" : 3,
+                    "sum_revenue" : {
+                      "value" : 8110058.0
+                    }
+                  },
+                  {
+                    "key" : "1121",
+                    "doc_count" : 3,
+                    "sum_revenue" : {
+                      "value" : 1.8709431E7
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "key" : 1996,
+              "doc_count" : 1991,
+              "group_by_brand" : {
+                "doc_count_error_upper_bound" : 0,
+                "sum_other_doc_count" : 3949,
+                "buckets" : [
+                  {
+                    "key" : "111",
+                    "doc_count" : 3,
+                    "sum_revenue" : {
+                      "value" : 6557609.0
+                    }
+                  },
+                  {
+                    "key" : "1110",
+                    "doc_count" : 1,
+                    "sum_revenue" : {
+                      "value" : 4006409.0
+                    }
+                  },
+                  {
+                    "key" : "1111",
+                    "doc_count" : 5,
+                    "sum_revenue" : {
+                      "value" : 1.1991421E7
+                    }
+                  },
+                  {
+                    "key" : "1113",
+                    "doc_count" : 6,
+                    "sum_revenue" : {
+                      "value" : 1.0269157E7
+                    }
+                  },
+                  {
+                    "key" : "1114",
+                    "doc_count" : 2,
+                    "sum_revenue" : {
+                      "value" : 8548062.0
+                    }
+                  },
+                  {
+                    "key" : "1115",
+                    "doc_count" : 1,
+                    "sum_revenue" : {
+                      "value" : 1385622.0
+                    }
+                  },
+                  {
+                    "key" : "1119",
+                    "doc_count" : 4,
+                    "sum_revenue" : {
+                      "value" : 9008127.0
+                    }
+                  },
+                  {
+                    "key" : "1120",
+                    "doc_count" : 2,
+                    "sum_revenue" : {
+                      "value" : 1095604.0
+                    }
+                  },
+                  {
+                    "key" : "1121",
+                    "doc_count" : 5,
+                    "sum_revenue" : {
+                      "value" : 9645615.0
+                    }
+                  },
+                  {
+                    "key" : "1122",
+                    "doc_count" : 4,
+                    "sum_revenue" : {
+                      "value" : 1.0614428E7
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "key" : 1997,
+              "doc_count" : 2064,
+              "group_by_brand" : {
+                "doc_count_error_upper_bound" : 0,
+                "sum_other_doc_count" : 4105,
+                "buckets" : [
+                  {
+                    "key" : "111",
+                    "doc_count" : 2,
+                    "sum_revenue" : {
+                      "value" : 6313124.0
+                    }
+                  },
+                  {
+                    "key" : "1110",
+                    "doc_count" : 1,
+                    "sum_revenue" : {
+                      "value" : 473214.0
+                    }
+                  },
+                  {
+                    "key" : "1111",
+                    "doc_count" : 1,
+                    "sum_revenue" : {
+                      "value" : 1316131.0
+                    }
+                  },
+                  {
+                    "key" : "1112",
+                    "doc_count" : 1,
+                    "sum_revenue" : {
+                      "value" : 483447.0
+                    }
+                  },
+                  {
+                    "key" : "1113",
+                    "doc_count" : 1,
+                    "sum_revenue" : {
+                      "value" : 529575.0
+                    }
+                  },
+                  {
+                    "key" : "1114",
+                    "doc_count" : 2,
+                    "sum_revenue" : {
+                      "value" : 3668159.0
+                    }
+                  },
+                  {
+                    "key" : "1115",
+                    "doc_count" : 5,
+                    "sum_revenue" : {
+                      "value" : 1.2681502E7
+                    }
+                  },
+                  {
+                    "key" : "1119",
+                    "doc_count" : 1,
+                    "sum_revenue" : {
+                      "value" : 4451203.0
+                    }
+                  },
+                  {
+                    "key" : "1121",
+                    "doc_count" : 6,
+                    "sum_revenue" : {
+                      "value" : 1.7821945E7
+                    }
+                  },
+                  {
+                    "key" : "1122",
+                    "doc_count" : 3,
+                    "sum_revenue" : {
+                      "value" : 9191695.0
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "key" : 1998,
+              "doc_count" : 1195,
+              "group_by_brand" : {
+                "doc_count_error_upper_bound" : 0,
+                "sum_other_doc_count" : 2369,
+                "buckets" : [
+                  {
+                    "key" : "111",
+                    "doc_count" : 3,
+                    "sum_revenue" : {
+                      "value" : 9231609.0
+                    }
+                  },
+                  {
+                    "key" : "1111",
+                    "doc_count" : 2,
+                    "sum_revenue" : {
+                      "value" : 3719993.0
+                    }
+                  },
+                  {
+                    "key" : "1113",
+                    "doc_count" : 3,
+                    "sum_revenue" : {
+                      "value" : 1.7769139E7
+                    }
+                  },
+                  {
+                    "key" : "1114",
+                    "doc_count" : 1,
+                    "sum_revenue" : {
+                      "value" : 3067349.0
+                    }
+                  },
+                  {
+                    "key" : "1115",
+                    "doc_count" : 1,
+                    "sum_revenue" : {
+                      "value" : 5029315.0
+                    }
+                  },
+                  {
+                    "key" : "1117",
+                    "doc_count" : 1,
+                    "sum_revenue" : {
+                      "value" : 0.0
+                    }
+                  },
+                  {
+                    "key" : "1121",
+                    "doc_count" : 3,
+                    "sum_revenue" : {
+                      "value" : 3959149.0
+                    }
+                  },
+                  {
+                    "key" : "1122",
+                    "doc_count" : 2,
+                    "sum_revenue" : {
+                      "value" : 3541149.0
+                    }
+                  },
+                  {
+                    "key" : "1123",
+                    "doc_count" : 3,
+                    "sum_revenue" : {
+                      "value" : 9652389.0
+                    }
+                  },
+                  {
+                    "key" : "1124",
+                    "doc_count" : 2,
+                    "sum_revenue" : {
+                      "value" : 7975767.0
+                    }
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      }
+    }
+  }
+}

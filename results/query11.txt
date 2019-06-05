@@ -1,0 +1,29 @@
+{
+  "took" : 12,
+  "timed_out" : false,
+  "_shards" : {
+    "total" : 1,
+    "successful" : 1,
+    "skipped" : 0,
+    "failed" : 0
+  },
+  "hits" : {
+    "total" : {
+      "value" : 1016,
+      "relation" : "eq"
+    },
+    "max_score" : null,
+    "hits" : [ ]
+  },
+  "aggregations" : {
+    "lineorder" : {
+      "doc_count" : 31051,
+      "only_loc" : {
+        "doc_count" : 1426,
+        "extended_price" : {
+          "value" : 3.384654794E9
+        }
+      }
+    }
+  }
+}

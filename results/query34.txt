@@ -1,0 +1,268 @@
+{
+  "took" : 8,
+  "timed_out" : false,
+  "_shards" : {
+    "total" : 1,
+    "successful" : 1,
+    "skipped" : 0,
+    "failed" : 0
+  },
+  "hits" : {
+    "total" : {
+      "value" : 5,
+      "relation" : "eq"
+    },
+    "max_score" : null,
+    "hits" : [ ]
+  },
+  "aggregations" : {
+    "s_city" : {
+      "doc_count_error_upper_bound" : 0,
+      "sum_other_doc_count" : 0,
+      "buckets" : [
+        {
+          "key" : "ki6",
+          "doc_count" : 1,
+          "lineorder" : {
+            "doc_count" : 38,
+            "only_loc" : {
+              "doc_count" : 1,
+              "year" : {
+                "doc_count_error_upper_bound" : 0,
+                "sum_other_doc_count" : 0,
+                "buckets" : [
+                  {
+                    "key" : 1997,
+                    "doc_count" : 1,
+                    "c_city" : {
+                      "doc_count_error_upper_bound" : 0,
+                      "sum_other_doc_count" : 0,
+                      "buckets" : [
+                        {
+                          "key" : "st9",
+                          "doc_count" : 1,
+                          "sum_revenue" : {
+                            "value" : 678763.0
+                          }
+                        },
+                        {
+                          "key" : "united",
+                          "doc_count" : 1,
+                          "sum_revenue" : {
+                            "value" : 678763.0
+                          }
+                        }
+                      ]
+                    }
+                  }
+                ]
+              }
+            }
+          }
+        },
+        {
+          "key" : "ki7",
+          "doc_count" : 1,
+          "lineorder" : {
+            "doc_count" : 29,
+            "only_loc" : {
+              "doc_count" : 2,
+              "year" : {
+                "doc_count_error_upper_bound" : 0,
+                "sum_other_doc_count" : 0,
+                "buckets" : [
+                  {
+                    "key" : 1997,
+                    "doc_count" : 2,
+                    "c_city" : {
+                      "doc_count_error_upper_bound" : 0,
+                      "sum_other_doc_count" : 0,
+                      "buckets" : [
+                        {
+                          "key" : "ki9",
+                          "doc_count" : 1,
+                          "sum_revenue" : {
+                            "value" : 3506296.0
+                          }
+                        },
+                        {
+                          "key" : "st4",
+                          "doc_count" : 1,
+                          "sum_revenue" : {
+                            "value" : 0.0
+                          }
+                        },
+                        {
+                          "key" : "united",
+                          "doc_count" : 2,
+                          "sum_revenue" : {
+                            "value" : 3506296.0
+                          }
+                        }
+                      ]
+                    }
+                  }
+                ]
+              }
+            }
+          }
+        },
+        {
+          "key" : "st7",
+          "doc_count" : 2,
+          "lineorder" : {
+            "doc_count" : 66,
+            "only_loc" : {
+              "doc_count" : 2,
+              "year" : {
+                "doc_count_error_upper_bound" : 0,
+                "sum_other_doc_count" : 0,
+                "buckets" : [
+                  {
+                    "key" : 1997,
+                    "doc_count" : 2,
+                    "c_city" : {
+                      "doc_count_error_upper_bound" : 0,
+                      "sum_other_doc_count" : 0,
+                      "buckets" : [
+                        {
+                          "key" : "ki4",
+                          "doc_count" : 1,
+                          "sum_revenue" : {
+                            "value" : 4549678.0
+                          }
+                        },
+                        {
+                          "key" : "ki5",
+                          "doc_count" : 1,
+                          "sum_revenue" : {
+                            "value" : 1160806.0
+                          }
+                        },
+                        {
+                          "key" : "united",
+                          "doc_count" : 2,
+                          "sum_revenue" : {
+                            "value" : 5710484.0
+                          }
+                        }
+                      ]
+                    }
+                  }
+                ]
+              }
+            }
+          }
+        },
+        {
+          "key" : "st9",
+          "doc_count" : 1,
+          "lineorder" : {
+            "doc_count" : 25,
+            "only_loc" : {
+              "doc_count" : 1,
+              "year" : {
+                "doc_count_error_upper_bound" : 0,
+                "sum_other_doc_count" : 0,
+                "buckets" : [
+                  {
+                    "key" : 1997,
+                    "doc_count" : 1,
+                    "c_city" : {
+                      "doc_count_error_upper_bound" : 0,
+                      "sum_other_doc_count" : 0,
+                      "buckets" : [
+                        {
+                          "key" : "st9",
+                          "doc_count" : 1,
+                          "sum_revenue" : {
+                            "value" : 1181958.0
+                          }
+                        },
+                        {
+                          "key" : "united",
+                          "doc_count" : 1,
+                          "sum_revenue" : {
+                            "value" : 1181958.0
+                          }
+                        }
+                      ]
+                    }
+                  }
+                ]
+              }
+            }
+          }
+        },
+        {
+          "key" : "united",
+          "doc_count" : 5,
+          "lineorder" : {
+            "doc_count" : 158,
+            "only_loc" : {
+              "doc_count" : 6,
+              "year" : {
+                "doc_count_error_upper_bound" : 0,
+                "sum_other_doc_count" : 0,
+                "buckets" : [
+                  {
+                    "key" : 1997,
+                    "doc_count" : 6,
+                    "c_city" : {
+                      "doc_count_error_upper_bound" : 0,
+                      "sum_other_doc_count" : 0,
+                      "buckets" : [
+                        {
+                          "key" : "ki4",
+                          "doc_count" : 1,
+                          "sum_revenue" : {
+                            "value" : 4549678.0
+                          }
+                        },
+                        {
+                          "key" : "ki5",
+                          "doc_count" : 1,
+                          "sum_revenue" : {
+                            "value" : 1160806.0
+                          }
+                        },
+                        {
+                          "key" : "ki9",
+                          "doc_count" : 1,
+                          "sum_revenue" : {
+                            "value" : 3506296.0
+                          }
+                        },
+                        {
+                          "key" : "st4",
+                          "doc_count" : 1,
+                          "sum_revenue" : {
+                            "value" : 0.0
+                          }
+                        },
+                        {
+                          "key" : "st9",
+                          "doc_count" : 2,
+                          "sum_revenue" : {
+                            "value" : 1860721.0
+                          }
+                        },
+                        {
+                          "key" : "united",
+                          "doc_count" : 6,
+                          "sum_revenue" : {
+                            "value" : 1.1077501E7
+                          }
+                        }
+                      ]
+                    }
+                  }
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  }
+}

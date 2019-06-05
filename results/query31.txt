@@ -1,0 +1,1456 @@
+{
+  "took" : 6,
+  "timed_out" : false,
+  "_shards" : {
+    "total" : 1,
+    "successful" : 1,
+    "skipped" : 0,
+    "failed" : 0
+  },
+  "hits" : {
+    "total" : {
+      "value" : 448,
+      "relation" : "eq"
+    },
+    "max_score" : null,
+    "hits" : [ ]
+  },
+  "aggregations" : {
+    "s_nation" : {
+      "doc_count_error_upper_bound" : 0,
+      "sum_other_doc_count" : 0,
+      "buckets" : [
+        {
+          "key" : "china",
+          "doc_count" : 96,
+          "lineorder" : {
+            "doc_count" : 2895,
+            "only_loc" : {
+              "doc_count" : 554,
+              "year" : {
+                "doc_count_error_upper_bound" : 0,
+                "sum_other_doc_count" : 0,
+                "buckets" : [
+                  {
+                    "key" : 1992,
+                    "doc_count" : 93,
+                    "c_nation" : {
+                      "doc_count_error_upper_bound" : 0,
+                      "sum_other_doc_count" : 0,
+                      "buckets" : [
+                        {
+                          "key" : "china",
+                          "doc_count" : 16,
+                          "sum_revenue" : {
+                            "value" : 5.0593209E7
+                          }
+                        },
+                        {
+                          "key" : "india",
+                          "doc_count" : 15,
+                          "sum_revenue" : {
+                            "value" : 4.9230146E7
+                          }
+                        },
+                        {
+                          "key" : "indonesia",
+                          "doc_count" : 17,
+                          "sum_revenue" : {
+                            "value" : 2.3528327E7
+                          }
+                        },
+                        {
+                          "key" : "japan",
+                          "doc_count" : 29,
+                          "sum_revenue" : {
+                            "value" : 7.099232E7
+                          }
+                        },
+                        {
+                          "key" : "vietnam",
+                          "doc_count" : 16,
+                          "sum_revenue" : {
+                            "value" : 4.7346138E7
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "key" : 1993,
+                    "doc_count" : 102,
+                    "c_nation" : {
+                      "doc_count_error_upper_bound" : 0,
+                      "sum_other_doc_count" : 0,
+                      "buckets" : [
+                        {
+                          "key" : "china",
+                          "doc_count" : 21,
+                          "sum_revenue" : {
+                            "value" : 4.9943464E7
+                          }
+                        },
+                        {
+                          "key" : "india",
+                          "doc_count" : 20,
+                          "sum_revenue" : {
+                            "value" : 5.915833E7
+                          }
+                        },
+                        {
+                          "key" : "indonesia",
+                          "doc_count" : 26,
+                          "sum_revenue" : {
+                            "value" : 7.6348751E7
+                          }
+                        },
+                        {
+                          "key" : "japan",
+                          "doc_count" : 13,
+                          "sum_revenue" : {
+                            "value" : 2.6870001E7
+                          }
+                        },
+                        {
+                          "key" : "vietnam",
+                          "doc_count" : 22,
+                          "sum_revenue" : {
+                            "value" : 4.2865118E7
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "key" : 1994,
+                    "doc_count" : 75,
+                    "c_nation" : {
+                      "doc_count_error_upper_bound" : 0,
+                      "sum_other_doc_count" : 0,
+                      "buckets" : [
+                        {
+                          "key" : "china",
+                          "doc_count" : 11,
+                          "sum_revenue" : {
+                            "value" : 3.1456253E7
+                          }
+                        },
+                        {
+                          "key" : "india",
+                          "doc_count" : 14,
+                          "sum_revenue" : {
+                            "value" : 2.9552115E7
+                          }
+                        },
+                        {
+                          "key" : "indonesia",
+                          "doc_count" : 15,
+                          "sum_revenue" : {
+                            "value" : 3.036152E7
+                          }
+                        },
+                        {
+                          "key" : "japan",
+                          "doc_count" : 14,
+                          "sum_revenue" : {
+                            "value" : 3.8228784E7
+                          }
+                        },
+                        {
+                          "key" : "vietnam",
+                          "doc_count" : 21,
+                          "sum_revenue" : {
+                            "value" : 7.8402805E7
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "key" : 1995,
+                    "doc_count" : 90,
+                    "c_nation" : {
+                      "doc_count_error_upper_bound" : 0,
+                      "sum_other_doc_count" : 0,
+                      "buckets" : [
+                        {
+                          "key" : "china",
+                          "doc_count" : 19,
+                          "sum_revenue" : {
+                            "value" : 3.8619645E7
+                          }
+                        },
+                        {
+                          "key" : "india",
+                          "doc_count" : 12,
+                          "sum_revenue" : {
+                            "value" : 2.8802108E7
+                          }
+                        },
+                        {
+                          "key" : "indonesia",
+                          "doc_count" : 17,
+                          "sum_revenue" : {
+                            "value" : 5.2531891E7
+                          }
+                        },
+                        {
+                          "key" : "japan",
+                          "doc_count" : 21,
+                          "sum_revenue" : {
+                            "value" : 3.7765902E7
+                          }
+                        },
+                        {
+                          "key" : "vietnam",
+                          "doc_count" : 21,
+                          "sum_revenue" : {
+                            "value" : 5.6729454E7
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "key" : 1996,
+                    "doc_count" : 108,
+                    "c_nation" : {
+                      "doc_count_error_upper_bound" : 0,
+                      "sum_other_doc_count" : 0,
+                      "buckets" : [
+                        {
+                          "key" : "china",
+                          "doc_count" : 26,
+                          "sum_revenue" : {
+                            "value" : 5.4380112E7
+                          }
+                        },
+                        {
+                          "key" : "india",
+                          "doc_count" : 18,
+                          "sum_revenue" : {
+                            "value" : 6.1632268E7
+                          }
+                        },
+                        {
+                          "key" : "indonesia",
+                          "doc_count" : 17,
+                          "sum_revenue" : {
+                            "value" : 3.9806255E7
+                          }
+                        },
+                        {
+                          "key" : "japan",
+                          "doc_count" : 26,
+                          "sum_revenue" : {
+                            "value" : 7.5556114E7
+                          }
+                        },
+                        {
+                          "key" : "vietnam",
+                          "doc_count" : 21,
+                          "sum_revenue" : {
+                            "value" : 5.8107854E7
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "key" : 1997,
+                    "doc_count" : 86,
+                    "c_nation" : {
+                      "doc_count_error_upper_bound" : 0,
+                      "sum_other_doc_count" : 0,
+                      "buckets" : [
+                        {
+                          "key" : "china",
+                          "doc_count" : 19,
+                          "sum_revenue" : {
+                            "value" : 6.11877E7
+                          }
+                        },
+                        {
+                          "key" : "india",
+                          "doc_count" : 11,
+                          "sum_revenue" : {
+                            "value" : 3.1319237E7
+                          }
+                        },
+                        {
+                          "key" : "indonesia",
+                          "doc_count" : 17,
+                          "sum_revenue" : {
+                            "value" : 3.4062678E7
+                          }
+                        },
+                        {
+                          "key" : "japan",
+                          "doc_count" : 20,
+                          "sum_revenue" : {
+                            "value" : 3.9259802E7
+                          }
+                        },
+                        {
+                          "key" : "vietnam",
+                          "doc_count" : 19,
+                          "sum_revenue" : {
+                            "value" : 4.6945504E7
+                          }
+                        }
+                      ]
+                    }
+                  }
+                ]
+              }
+            }
+          }
+        },
+        {
+          "key" : "india",
+          "doc_count" : 87,
+          "lineorder" : {
+            "doc_count" : 2644,
+            "only_loc" : {
+              "doc_count" : 500,
+              "year" : {
+                "doc_count_error_upper_bound" : 0,
+                "sum_other_doc_count" : 0,
+                "buckets" : [
+                  {
+                    "key" : 1992,
+                    "doc_count" : 102,
+                    "c_nation" : {
+                      "doc_count_error_upper_bound" : 0,
+                      "sum_other_doc_count" : 0,
+                      "buckets" : [
+                        {
+                          "key" : "china",
+                          "doc_count" : 28,
+                          "sum_revenue" : {
+                            "value" : 7.2728729E7
+                          }
+                        },
+                        {
+                          "key" : "india",
+                          "doc_count" : 17,
+                          "sum_revenue" : {
+                            "value" : 5.5043611E7
+                          }
+                        },
+                        {
+                          "key" : "indonesia",
+                          "doc_count" : 17,
+                          "sum_revenue" : {
+                            "value" : 4.2969384E7
+                          }
+                        },
+                        {
+                          "key" : "japan",
+                          "doc_count" : 18,
+                          "sum_revenue" : {
+                            "value" : 5.4015856E7
+                          }
+                        },
+                        {
+                          "key" : "vietnam",
+                          "doc_count" : 22,
+                          "sum_revenue" : {
+                            "value" : 5.4203985E7
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "key" : 1993,
+                    "doc_count" : 99,
+                    "c_nation" : {
+                      "doc_count_error_upper_bound" : 0,
+                      "sum_other_doc_count" : 0,
+                      "buckets" : [
+                        {
+                          "key" : "china",
+                          "doc_count" : 16,
+                          "sum_revenue" : {
+                            "value" : 4.714873E7
+                          }
+                        },
+                        {
+                          "key" : "india",
+                          "doc_count" : 25,
+                          "sum_revenue" : {
+                            "value" : 6.7052463E7
+                          }
+                        },
+                        {
+                          "key" : "indonesia",
+                          "doc_count" : 21,
+                          "sum_revenue" : {
+                            "value" : 6.9550881E7
+                          }
+                        },
+                        {
+                          "key" : "japan",
+                          "doc_count" : 18,
+                          "sum_revenue" : {
+                            "value" : 4.1442943E7
+                          }
+                        },
+                        {
+                          "key" : "vietnam",
+                          "doc_count" : 19,
+                          "sum_revenue" : {
+                            "value" : 5.2556528E7
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "key" : 1994,
+                    "doc_count" : 79,
+                    "c_nation" : {
+                      "doc_count_error_upper_bound" : 0,
+                      "sum_other_doc_count" : 0,
+                      "buckets" : [
+                        {
+                          "key" : "china",
+                          "doc_count" : 12,
+                          "sum_revenue" : {
+                            "value" : 4.2146766E7
+                          }
+                        },
+                        {
+                          "key" : "india",
+                          "doc_count" : 19,
+                          "sum_revenue" : {
+                            "value" : 6.1077056E7
+                          }
+                        },
+                        {
+                          "key" : "indonesia",
+                          "doc_count" : 16,
+                          "sum_revenue" : {
+                            "value" : 4.6335981E7
+                          }
+                        },
+                        {
+                          "key" : "japan",
+                          "doc_count" : 17,
+                          "sum_revenue" : {
+                            "value" : 4.7195855E7
+                          }
+                        },
+                        {
+                          "key" : "vietnam",
+                          "doc_count" : 15,
+                          "sum_revenue" : {
+                            "value" : 3.4815538E7
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "key" : 1995,
+                    "doc_count" : 84,
+                    "c_nation" : {
+                      "doc_count_error_upper_bound" : 0,
+                      "sum_other_doc_count" : 0,
+                      "buckets" : [
+                        {
+                          "key" : "china",
+                          "doc_count" : 19,
+                          "sum_revenue" : {
+                            "value" : 3.7041605E7
+                          }
+                        },
+                        {
+                          "key" : "india",
+                          "doc_count" : 16,
+                          "sum_revenue" : {
+                            "value" : 4.2606736E7
+                          }
+                        },
+                        {
+                          "key" : "indonesia",
+                          "doc_count" : 23,
+                          "sum_revenue" : {
+                            "value" : 4.8538899E7
+                          }
+                        },
+                        {
+                          "key" : "japan",
+                          "doc_count" : 12,
+                          "sum_revenue" : {
+                            "value" : 1.8508822E7
+                          }
+                        },
+                        {
+                          "key" : "vietnam",
+                          "doc_count" : 14,
+                          "sum_revenue" : {
+                            "value" : 3.3289189E7
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "key" : 1996,
+                    "doc_count" : 70,
+                    "c_nation" : {
+                      "doc_count_error_upper_bound" : 0,
+                      "sum_other_doc_count" : 0,
+                      "buckets" : [
+                        {
+                          "key" : "china",
+                          "doc_count" : 10,
+                          "sum_revenue" : {
+                            "value" : 2.766825E7
+                          }
+                        },
+                        {
+                          "key" : "india",
+                          "doc_count" : 21,
+                          "sum_revenue" : {
+                            "value" : 5.6622433E7
+                          }
+                        },
+                        {
+                          "key" : "indonesia",
+                          "doc_count" : 15,
+                          "sum_revenue" : {
+                            "value" : 5.0284507E7
+                          }
+                        },
+                        {
+                          "key" : "japan",
+                          "doc_count" : 14,
+                          "sum_revenue" : {
+                            "value" : 3.2880252E7
+                          }
+                        },
+                        {
+                          "key" : "vietnam",
+                          "doc_count" : 10,
+                          "sum_revenue" : {
+                            "value" : 2.1495951E7
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "key" : 1997,
+                    "doc_count" : 66,
+                    "c_nation" : {
+                      "doc_count_error_upper_bound" : 0,
+                      "sum_other_doc_count" : 0,
+                      "buckets" : [
+                        {
+                          "key" : "china",
+                          "doc_count" : 11,
+                          "sum_revenue" : {
+                            "value" : 3.6437112E7
+                          }
+                        },
+                        {
+                          "key" : "india",
+                          "doc_count" : 15,
+                          "sum_revenue" : {
+                            "value" : 4.526552E7
+                          }
+                        },
+                        {
+                          "key" : "indonesia",
+                          "doc_count" : 13,
+                          "sum_revenue" : {
+                            "value" : 4.8244554E7
+                          }
+                        },
+                        {
+                          "key" : "japan",
+                          "doc_count" : 12,
+                          "sum_revenue" : {
+                            "value" : 2.459954E7
+                          }
+                        },
+                        {
+                          "key" : "vietnam",
+                          "doc_count" : 15,
+                          "sum_revenue" : {
+                            "value" : 4.5785752E7
+                          }
+                        }
+                      ]
+                    }
+                  }
+                ]
+              }
+            }
+          }
+        },
+        {
+          "key" : "indonesia",
+          "doc_count" : 94,
+          "lineorder" : {
+            "doc_count" : 2806,
+            "only_loc" : {
+              "doc_count" : 488,
+              "year" : {
+                "doc_count_error_upper_bound" : 0,
+                "sum_other_doc_count" : 0,
+                "buckets" : [
+                  {
+                    "key" : 1992,
+                    "doc_count" : 84,
+                    "c_nation" : {
+                      "doc_count_error_upper_bound" : 0,
+                      "sum_other_doc_count" : 0,
+                      "buckets" : [
+                        {
+                          "key" : "china",
+                          "doc_count" : 23,
+                          "sum_revenue" : {
+                            "value" : 4.6657327E7
+                          }
+                        },
+                        {
+                          "key" : "india",
+                          "doc_count" : 16,
+                          "sum_revenue" : {
+                            "value" : 3.9608085E7
+                          }
+                        },
+                        {
+                          "key" : "indonesia",
+                          "doc_count" : 13,
+                          "sum_revenue" : {
+                            "value" : 3.9611658E7
+                          }
+                        },
+                        {
+                          "key" : "japan",
+                          "doc_count" : 13,
+                          "sum_revenue" : {
+                            "value" : 4.0271918E7
+                          }
+                        },
+                        {
+                          "key" : "vietnam",
+                          "doc_count" : 19,
+                          "sum_revenue" : {
+                            "value" : 7.9795702E7
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "key" : 1993,
+                    "doc_count" : 77,
+                    "c_nation" : {
+                      "doc_count_error_upper_bound" : 0,
+                      "sum_other_doc_count" : 0,
+                      "buckets" : [
+                        {
+                          "key" : "china",
+                          "doc_count" : 16,
+                          "sum_revenue" : {
+                            "value" : 4.6789465E7
+                          }
+                        },
+                        {
+                          "key" : "india",
+                          "doc_count" : 14,
+                          "sum_revenue" : {
+                            "value" : 4.0184157E7
+                          }
+                        },
+                        {
+                          "key" : "indonesia",
+                          "doc_count" : 15,
+                          "sum_revenue" : {
+                            "value" : 2.6303288E7
+                          }
+                        },
+                        {
+                          "key" : "japan",
+                          "doc_count" : 14,
+                          "sum_revenue" : {
+                            "value" : 3.0872263E7
+                          }
+                        },
+                        {
+                          "key" : "vietnam",
+                          "doc_count" : 18,
+                          "sum_revenue" : {
+                            "value" : 4.3962253E7
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "key" : 1994,
+                    "doc_count" : 74,
+                    "c_nation" : {
+                      "doc_count_error_upper_bound" : 0,
+                      "sum_other_doc_count" : 0,
+                      "buckets" : [
+                        {
+                          "key" : "china",
+                          "doc_count" : 17,
+                          "sum_revenue" : {
+                            "value" : 4.9695687E7
+                          }
+                        },
+                        {
+                          "key" : "india",
+                          "doc_count" : 12,
+                          "sum_revenue" : {
+                            "value" : 3.5454519E7
+                          }
+                        },
+                        {
+                          "key" : "indonesia",
+                          "doc_count" : 16,
+                          "sum_revenue" : {
+                            "value" : 5.8566179E7
+                          }
+                        },
+                        {
+                          "key" : "japan",
+                          "doc_count" : 16,
+                          "sum_revenue" : {
+                            "value" : 3.1895933E7
+                          }
+                        },
+                        {
+                          "key" : "vietnam",
+                          "doc_count" : 13,
+                          "sum_revenue" : {
+                            "value" : 2.7634039E7
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "key" : 1995,
+                    "doc_count" : 85,
+                    "c_nation" : {
+                      "doc_count_error_upper_bound" : 0,
+                      "sum_other_doc_count" : 0,
+                      "buckets" : [
+                        {
+                          "key" : "china",
+                          "doc_count" : 21,
+                          "sum_revenue" : {
+                            "value" : 7.2960906E7
+                          }
+                        },
+                        {
+                          "key" : "india",
+                          "doc_count" : 14,
+                          "sum_revenue" : {
+                            "value" : 4.8188107E7
+                          }
+                        },
+                        {
+                          "key" : "indonesia",
+                          "doc_count" : 15,
+                          "sum_revenue" : {
+                            "value" : 4.2252605E7
+                          }
+                        },
+                        {
+                          "key" : "japan",
+                          "doc_count" : 23,
+                          "sum_revenue" : {
+                            "value" : 7.69058E7
+                          }
+                        },
+                        {
+                          "key" : "vietnam",
+                          "doc_count" : 12,
+                          "sum_revenue" : {
+                            "value" : 4.4393542E7
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "key" : 1996,
+                    "doc_count" : 95,
+                    "c_nation" : {
+                      "doc_count_error_upper_bound" : 0,
+                      "sum_other_doc_count" : 0,
+                      "buckets" : [
+                        {
+                          "key" : "china",
+                          "doc_count" : 21,
+                          "sum_revenue" : {
+                            "value" : 4.0914268E7
+                          }
+                        },
+                        {
+                          "key" : "india",
+                          "doc_count" : 24,
+                          "sum_revenue" : {
+                            "value" : 5.9390664E7
+                          }
+                        },
+                        {
+                          "key" : "indonesia",
+                          "doc_count" : 19,
+                          "sum_revenue" : {
+                            "value" : 4.7795849E7
+                          }
+                        },
+                        {
+                          "key" : "japan",
+                          "doc_count" : 14,
+                          "sum_revenue" : {
+                            "value" : 2.7719771E7
+                          }
+                        },
+                        {
+                          "key" : "vietnam",
+                          "doc_count" : 17,
+                          "sum_revenue" : {
+                            "value" : 5.6894543E7
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "key" : 1997,
+                    "doc_count" : 73,
+                    "c_nation" : {
+                      "doc_count_error_upper_bound" : 0,
+                      "sum_other_doc_count" : 0,
+                      "buckets" : [
+                        {
+                          "key" : "china",
+                          "doc_count" : 16,
+                          "sum_revenue" : {
+                            "value" : 4.0520947E7
+                          }
+                        },
+                        {
+                          "key" : "india",
+                          "doc_count" : 13,
+                          "sum_revenue" : {
+                            "value" : 3.893323E7
+                          }
+                        },
+                        {
+                          "key" : "indonesia",
+                          "doc_count" : 16,
+                          "sum_revenue" : {
+                            "value" : 4.0850876E7
+                          }
+                        },
+                        {
+                          "key" : "japan",
+                          "doc_count" : 15,
+                          "sum_revenue" : {
+                            "value" : 3.2784958E7
+                          }
+                        },
+                        {
+                          "key" : "vietnam",
+                          "doc_count" : 13,
+                          "sum_revenue" : {
+                            "value" : 2.3493259E7
+                          }
+                        }
+                      ]
+                    }
+                  }
+                ]
+              }
+            }
+          }
+        },
+        {
+          "key" : "japan",
+          "doc_count" : 89,
+          "lineorder" : {
+            "doc_count" : 2669,
+            "only_loc" : {
+              "doc_count" : 466,
+              "year" : {
+                "doc_count_error_upper_bound" : 0,
+                "sum_other_doc_count" : 0,
+                "buckets" : [
+                  {
+                    "key" : 1992,
+                    "doc_count" : 82,
+                    "c_nation" : {
+                      "doc_count_error_upper_bound" : 0,
+                      "sum_other_doc_count" : 0,
+                      "buckets" : [
+                        {
+                          "key" : "china",
+                          "doc_count" : 24,
+                          "sum_revenue" : {
+                            "value" : 6.2521566E7
+                          }
+                        },
+                        {
+                          "key" : "india",
+                          "doc_count" : 12,
+                          "sum_revenue" : {
+                            "value" : 1.8680436E7
+                          }
+                        },
+                        {
+                          "key" : "indonesia",
+                          "doc_count" : 17,
+                          "sum_revenue" : {
+                            "value" : 4.4893478E7
+                          }
+                        },
+                        {
+                          "key" : "japan",
+                          "doc_count" : 16,
+                          "sum_revenue" : {
+                            "value" : 3.7572687E7
+                          }
+                        },
+                        {
+                          "key" : "vietnam",
+                          "doc_count" : 13,
+                          "sum_revenue" : {
+                            "value" : 3.6638002E7
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "key" : 1993,
+                    "doc_count" : 79,
+                    "c_nation" : {
+                      "doc_count_error_upper_bound" : 0,
+                      "sum_other_doc_count" : 0,
+                      "buckets" : [
+                        {
+                          "key" : "china",
+                          "doc_count" : 15,
+                          "sum_revenue" : {
+                            "value" : 4.4951673E7
+                          }
+                        },
+                        {
+                          "key" : "india",
+                          "doc_count" : 24,
+                          "sum_revenue" : {
+                            "value" : 6.591366E7
+                          }
+                        },
+                        {
+                          "key" : "indonesia",
+                          "doc_count" : 19,
+                          "sum_revenue" : {
+                            "value" : 5.3933422E7
+                          }
+                        },
+                        {
+                          "key" : "japan",
+                          "doc_count" : 11,
+                          "sum_revenue" : {
+                            "value" : 2.5146287E7
+                          }
+                        },
+                        {
+                          "key" : "vietnam",
+                          "doc_count" : 10,
+                          "sum_revenue" : {
+                            "value" : 3.1923707E7
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "key" : 1994,
+                    "doc_count" : 85,
+                    "c_nation" : {
+                      "doc_count_error_upper_bound" : 0,
+                      "sum_other_doc_count" : 0,
+                      "buckets" : [
+                        {
+                          "key" : "china",
+                          "doc_count" : 15,
+                          "sum_revenue" : {
+                            "value" : 5.4291569E7
+                          }
+                        },
+                        {
+                          "key" : "india",
+                          "doc_count" : 21,
+                          "sum_revenue" : {
+                            "value" : 3.9879091E7
+                          }
+                        },
+                        {
+                          "key" : "indonesia",
+                          "doc_count" : 18,
+                          "sum_revenue" : {
+                            "value" : 4.5034256E7
+                          }
+                        },
+                        {
+                          "key" : "japan",
+                          "doc_count" : 14,
+                          "sum_revenue" : {
+                            "value" : 2.4002415E7
+                          }
+                        },
+                        {
+                          "key" : "vietnam",
+                          "doc_count" : 17,
+                          "sum_revenue" : {
+                            "value" : 5.4022355E7
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "key" : 1995,
+                    "doc_count" : 74,
+                    "c_nation" : {
+                      "doc_count_error_upper_bound" : 0,
+                      "sum_other_doc_count" : 0,
+                      "buckets" : [
+                        {
+                          "key" : "china",
+                          "doc_count" : 17,
+                          "sum_revenue" : {
+                            "value" : 5.2441418E7
+                          }
+                        },
+                        {
+                          "key" : "india",
+                          "doc_count" : 9,
+                          "sum_revenue" : {
+                            "value" : 2.8092115E7
+                          }
+                        },
+                        {
+                          "key" : "indonesia",
+                          "doc_count" : 18,
+                          "sum_revenue" : {
+                            "value" : 5.4754559E7
+                          }
+                        },
+                        {
+                          "key" : "japan",
+                          "doc_count" : 19,
+                          "sum_revenue" : {
+                            "value" : 5.582466E7
+                          }
+                        },
+                        {
+                          "key" : "vietnam",
+                          "doc_count" : 11,
+                          "sum_revenue" : {
+                            "value" : 2.954567E7
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "key" : 1996,
+                    "doc_count" : 74,
+                    "c_nation" : {
+                      "doc_count_error_upper_bound" : 0,
+                      "sum_other_doc_count" : 0,
+                      "buckets" : [
+                        {
+                          "key" : "china",
+                          "doc_count" : 15,
+                          "sum_revenue" : {
+                            "value" : 5.2326339E7
+                          }
+                        },
+                        {
+                          "key" : "india",
+                          "doc_count" : 8,
+                          "sum_revenue" : {
+                            "value" : 3.0216945E7
+                          }
+                        },
+                        {
+                          "key" : "indonesia",
+                          "doc_count" : 12,
+                          "sum_revenue" : {
+                            "value" : 5.0720716E7
+                          }
+                        },
+                        {
+                          "key" : "japan",
+                          "doc_count" : 16,
+                          "sum_revenue" : {
+                            "value" : 4.9662767E7
+                          }
+                        },
+                        {
+                          "key" : "vietnam",
+                          "doc_count" : 23,
+                          "sum_revenue" : {
+                            "value" : 5.7466739E7
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "key" : 1997,
+                    "doc_count" : 72,
+                    "c_nation" : {
+                      "doc_count_error_upper_bound" : 0,
+                      "sum_other_doc_count" : 0,
+                      "buckets" : [
+                        {
+                          "key" : "china",
+                          "doc_count" : 15,
+                          "sum_revenue" : {
+                            "value" : 3.588176E7
+                          }
+                        },
+                        {
+                          "key" : "india",
+                          "doc_count" : 14,
+                          "sum_revenue" : {
+                            "value" : 5.0393407E7
+                          }
+                        },
+                        {
+                          "key" : "indonesia",
+                          "doc_count" : 17,
+                          "sum_revenue" : {
+                            "value" : 4.4429955E7
+                          }
+                        },
+                        {
+                          "key" : "japan",
+                          "doc_count" : 7,
+                          "sum_revenue" : {
+                            "value" : 2.1432313E7
+                          }
+                        },
+                        {
+                          "key" : "vietnam",
+                          "doc_count" : 19,
+                          "sum_revenue" : {
+                            "value" : 5.5453665E7
+                          }
+                        }
+                      ]
+                    }
+                  }
+                ]
+              }
+            }
+          }
+        },
+        {
+          "key" : "vietnam",
+          "doc_count" : 82,
+          "lineorder" : {
+            "doc_count" : 2518,
+            "only_loc" : {
+              "doc_count" : 435,
+              "year" : {
+                "doc_count_error_upper_bound" : 0,
+                "sum_other_doc_count" : 0,
+                "buckets" : [
+                  {
+                    "key" : 1992,
+                    "doc_count" : 71,
+                    "c_nation" : {
+                      "doc_count_error_upper_bound" : 0,
+                      "sum_other_doc_count" : 0,
+                      "buckets" : [
+                        {
+                          "key" : "china",
+                          "doc_count" : 16,
+                          "sum_revenue" : {
+                            "value" : 5.0698354E7
+                          }
+                        },
+                        {
+                          "key" : "india",
+                          "doc_count" : 13,
+                          "sum_revenue" : {
+                            "value" : 3.3490729E7
+                          }
+                        },
+                        {
+                          "key" : "indonesia",
+                          "doc_count" : 11,
+                          "sum_revenue" : {
+                            "value" : 3.5597791E7
+                          }
+                        },
+                        {
+                          "key" : "japan",
+                          "doc_count" : 15,
+                          "sum_revenue" : {
+                            "value" : 6.1353138E7
+                          }
+                        },
+                        {
+                          "key" : "vietnam",
+                          "doc_count" : 16,
+                          "sum_revenue" : {
+                            "value" : 4.8135096E7
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "key" : 1993,
+                    "doc_count" : 65,
+                    "c_nation" : {
+                      "doc_count_error_upper_bound" : 0,
+                      "sum_other_doc_count" : 0,
+                      "buckets" : [
+                        {
+                          "key" : "china",
+                          "doc_count" : 14,
+                          "sum_revenue" : {
+                            "value" : 3.5113101E7
+                          }
+                        },
+                        {
+                          "key" : "india",
+                          "doc_count" : 8,
+                          "sum_revenue" : {
+                            "value" : 2.7778856E7
+                          }
+                        },
+                        {
+                          "key" : "indonesia",
+                          "doc_count" : 12,
+                          "sum_revenue" : {
+                            "value" : 3.1649192E7
+                          }
+                        },
+                        {
+                          "key" : "japan",
+                          "doc_count" : 14,
+                          "sum_revenue" : {
+                            "value" : 3.2872318E7
+                          }
+                        },
+                        {
+                          "key" : "vietnam",
+                          "doc_count" : 17,
+                          "sum_revenue" : {
+                            "value" : 4.2933235E7
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "key" : 1994,
+                    "doc_count" : 65,
+                    "c_nation" : {
+                      "doc_count_error_upper_bound" : 0,
+                      "sum_other_doc_count" : 0,
+                      "buckets" : [
+                        {
+                          "key" : "china",
+                          "doc_count" : 7,
+                          "sum_revenue" : {
+                            "value" : 2.301211E7
+                          }
+                        },
+                        {
+                          "key" : "india",
+                          "doc_count" : 17,
+                          "sum_revenue" : {
+                            "value" : 4.119822E7
+                          }
+                        },
+                        {
+                          "key" : "indonesia",
+                          "doc_count" : 14,
+                          "sum_revenue" : {
+                            "value" : 3.0045816E7
+                          }
+                        },
+                        {
+                          "key" : "japan",
+                          "doc_count" : 11,
+                          "sum_revenue" : {
+                            "value" : 2.2911565E7
+                          }
+                        },
+                        {
+                          "key" : "vietnam",
+                          "doc_count" : 16,
+                          "sum_revenue" : {
+                            "value" : 5.7133546E7
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "key" : 1995,
+                    "doc_count" : 78,
+                    "c_nation" : {
+                      "doc_count_error_upper_bound" : 0,
+                      "sum_other_doc_count" : 0,
+                      "buckets" : [
+                        {
+                          "key" : "china",
+                          "doc_count" : 15,
+                          "sum_revenue" : {
+                            "value" : 4.3759755E7
+                          }
+                        },
+                        {
+                          "key" : "india",
+                          "doc_count" : 21,
+                          "sum_revenue" : {
+                            "value" : 4.4264219E7
+                          }
+                        },
+                        {
+                          "key" : "indonesia",
+                          "doc_count" : 10,
+                          "sum_revenue" : {
+                            "value" : 2.4211677E7
+                          }
+                        },
+                        {
+                          "key" : "japan",
+                          "doc_count" : 14,
+                          "sum_revenue" : {
+                            "value" : 2.6379087E7
+                          }
+                        },
+                        {
+                          "key" : "vietnam",
+                          "doc_count" : 18,
+                          "sum_revenue" : {
+                            "value" : 4.6097997E7
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "key" : 1996,
+                    "doc_count" : 81,
+                    "c_nation" : {
+                      "doc_count_error_upper_bound" : 0,
+                      "sum_other_doc_count" : 0,
+                      "buckets" : [
+                        {
+                          "key" : "china",
+                          "doc_count" : 18,
+                          "sum_revenue" : {
+                            "value" : 4.4400884E7
+                          }
+                        },
+                        {
+                          "key" : "india",
+                          "doc_count" : 17,
+                          "sum_revenue" : {
+                            "value" : 4.5075478E7
+                          }
+                        },
+                        {
+                          "key" : "indonesia",
+                          "doc_count" : 14,
+                          "sum_revenue" : {
+                            "value" : 4.9590153E7
+                          }
+                        },
+                        {
+                          "key" : "japan",
+                          "doc_count" : 13,
+                          "sum_revenue" : {
+                            "value" : 2.6685949E7
+                          }
+                        },
+                        {
+                          "key" : "vietnam",
+                          "doc_count" : 19,
+                          "sum_revenue" : {
+                            "value" : 5.2380739E7
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "key" : 1997,
+                    "doc_count" : 75,
+                    "c_nation" : {
+                      "doc_count_error_upper_bound" : 0,
+                      "sum_other_doc_count" : 0,
+                      "buckets" : [
+                        {
+                          "key" : "china",
+                          "doc_count" : 18,
+                          "sum_revenue" : {
+                            "value" : 4.7932049E7
+                          }
+                        },
+                        {
+                          "key" : "india",
+                          "doc_count" : 20,
+                          "sum_revenue" : {
+                            "value" : 8.482603E7
+                          }
+                        },
+                        {
+                          "key" : "indonesia",
+                          "doc_count" : 15,
+                          "sum_revenue" : {
+                            "value" : 4.3627339E7
+                          }
+                        },
+                        {
+                          "key" : "japan",
+                          "doc_count" : 8,
+                          "sum_revenue" : {
+                            "value" : 2.3503421E7
+                          }
+                        },
+                        {
+                          "key" : "vietnam",
+                          "doc_count" : 14,
+                          "sum_revenue" : {
+                            "value" : 4.7808941E7
+                          }
+                        }
+                      ]
+                    }
+                  }
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  }
+}

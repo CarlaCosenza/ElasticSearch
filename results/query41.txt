@@ -1,0 +1,396 @@
+{
+  "took" : 11,
+  "timed_out" : false,
+  "_shards" : {
+    "total" : 1,
+    "successful" : 1,
+    "skipped" : 0,
+    "failed" : 0
+  },
+  "hits" : {
+    "total" : {
+      "value" : 378,
+      "relation" : "eq"
+    },
+    "max_score" : null,
+    "hits" : [ ]
+  },
+  "aggregations" : {
+    "lineorder" : {
+      "doc_count" : 11379,
+      "only_loc" : {
+        "doc_count" : 2252,
+        "year" : {
+          "doc_count_error_upper_bound" : 0,
+          "sum_other_doc_count" : 0,
+          "buckets" : [
+            {
+              "key" : 1992,
+              "doc_count" : 315,
+              "c_nation" : {
+                "doc_count_error_upper_bound" : 0,
+                "sum_other_doc_count" : 0,
+                "buckets" : [
+                  {
+                    "key" : "argentina",
+                    "doc_count" : 59,
+                    "profit" : {
+                      "value" : 1.55296508E8
+                    }
+                  },
+                  {
+                    "key" : "brazil",
+                    "doc_count" : 55,
+                    "profit" : {
+                      "value" : 1.48724005E8
+                    }
+                  },
+                  {
+                    "key" : "canada",
+                    "doc_count" : 70,
+                    "profit" : {
+                      "value" : 2.1178208E8
+                    }
+                  },
+                  {
+                    "key" : "peru",
+                    "doc_count" : 54,
+                    "profit" : {
+                      "value" : 1.72938851E8
+                    }
+                  },
+                  {
+                    "key" : "states",
+                    "doc_count" : 77,
+                    "profit" : {
+                      "value" : 1.94266179E8
+                    }
+                  },
+                  {
+                    "key" : "united",
+                    "doc_count" : 77,
+                    "profit" : {
+                      "value" : 1.94266179E8
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "key" : 1993,
+              "doc_count" : 363,
+              "c_nation" : {
+                "doc_count_error_upper_bound" : 0,
+                "sum_other_doc_count" : 0,
+                "buckets" : [
+                  {
+                    "key" : "argentina",
+                    "doc_count" : 71,
+                    "profit" : {
+                      "value" : 1.9069061E8
+                    }
+                  },
+                  {
+                    "key" : "brazil",
+                    "doc_count" : 71,
+                    "profit" : {
+                      "value" : 2.34268217E8
+                    }
+                  },
+                  {
+                    "key" : "canada",
+                    "doc_count" : 78,
+                    "profit" : {
+                      "value" : 1.77611004E8
+                    }
+                  },
+                  {
+                    "key" : "peru",
+                    "doc_count" : 66,
+                    "profit" : {
+                      "value" : 1.58475274E8
+                    }
+                  },
+                  {
+                    "key" : "states",
+                    "doc_count" : 77,
+                    "profit" : {
+                      "value" : 2.22129583E8
+                    }
+                  },
+                  {
+                    "key" : "united",
+                    "doc_count" : 77,
+                    "profit" : {
+                      "value" : 2.22129583E8
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "key" : 1994,
+              "doc_count" : 330,
+              "c_nation" : {
+                "doc_count_error_upper_bound" : 0,
+                "sum_other_doc_count" : 0,
+                "buckets" : [
+                  {
+                    "key" : "argentina",
+                    "doc_count" : 63,
+                    "profit" : {
+                      "value" : 1.62440048E8
+                    }
+                  },
+                  {
+                    "key" : "brazil",
+                    "doc_count" : 61,
+                    "profit" : {
+                      "value" : 1.6141477E8
+                    }
+                  },
+                  {
+                    "key" : "canada",
+                    "doc_count" : 73,
+                    "profit" : {
+                      "value" : 1.74064393E8
+                    }
+                  },
+                  {
+                    "key" : "peru",
+                    "doc_count" : 66,
+                    "profit" : {
+                      "value" : 1.67567595E8
+                    }
+                  },
+                  {
+                    "key" : "states",
+                    "doc_count" : 67,
+                    "profit" : {
+                      "value" : 2.02941006E8
+                    }
+                  },
+                  {
+                    "key" : "united",
+                    "doc_count" : 67,
+                    "profit" : {
+                      "value" : 2.02941006E8
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "key" : 1995,
+              "doc_count" : 359,
+              "c_nation" : {
+                "doc_count_error_upper_bound" : 0,
+                "sum_other_doc_count" : 0,
+                "buckets" : [
+                  {
+                    "key" : "argentina",
+                    "doc_count" : 69,
+                    "profit" : {
+                      "value" : 1.91659665E8
+                    }
+                  },
+                  {
+                    "key" : "brazil",
+                    "doc_count" : 75,
+                    "profit" : {
+                      "value" : 2.14716952E8
+                    }
+                  },
+                  {
+                    "key" : "canada",
+                    "doc_count" : 69,
+                    "profit" : {
+                      "value" : 1.92968777E8
+                    }
+                  },
+                  {
+                    "key" : "peru",
+                    "doc_count" : 65,
+                    "profit" : {
+                      "value" : 1.73156909E8
+                    }
+                  },
+                  {
+                    "key" : "states",
+                    "doc_count" : 81,
+                    "profit" : {
+                      "value" : 2.34109798E8
+                    }
+                  },
+                  {
+                    "key" : "united",
+                    "doc_count" : 81,
+                    "profit" : {
+                      "value" : 2.34109798E8
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "key" : 1996,
+              "doc_count" : 327,
+              "c_nation" : {
+                "doc_count_error_upper_bound" : 0,
+                "sum_other_doc_count" : 0,
+                "buckets" : [
+                  {
+                    "key" : "argentina",
+                    "doc_count" : 71,
+                    "profit" : {
+                      "value" : 1.70464152E8
+                    }
+                  },
+                  {
+                    "key" : "brazil",
+                    "doc_count" : 58,
+                    "profit" : {
+                      "value" : 2.04620992E8
+                    }
+                  },
+                  {
+                    "key" : "canada",
+                    "doc_count" : 75,
+                    "profit" : {
+                      "value" : 1.98207892E8
+                    }
+                  },
+                  {
+                    "key" : "peru",
+                    "doc_count" : 60,
+                    "profit" : {
+                      "value" : 1.40455061E8
+                    }
+                  },
+                  {
+                    "key" : "states",
+                    "doc_count" : 63,
+                    "profit" : {
+                      "value" : 1.76103943E8
+                    }
+                  },
+                  {
+                    "key" : "united",
+                    "doc_count" : 63,
+                    "profit" : {
+                      "value" : 1.76103943E8
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "key" : 1997,
+              "doc_count" : 366,
+              "c_nation" : {
+                "doc_count_error_upper_bound" : 0,
+                "sum_other_doc_count" : 0,
+                "buckets" : [
+                  {
+                    "key" : "argentina",
+                    "doc_count" : 67,
+                    "profit" : {
+                      "value" : 1.97132167E8
+                    }
+                  },
+                  {
+                    "key" : "brazil",
+                    "doc_count" : 71,
+                    "profit" : {
+                      "value" : 2.34513214E8
+                    }
+                  },
+                  {
+                    "key" : "canada",
+                    "doc_count" : 73,
+                    "profit" : {
+                      "value" : 2.09172382E8
+                    }
+                  },
+                  {
+                    "key" : "peru",
+                    "doc_count" : 62,
+                    "profit" : {
+                      "value" : 1.86859215E8
+                    }
+                  },
+                  {
+                    "key" : "states",
+                    "doc_count" : 93,
+                    "profit" : {
+                      "value" : 2.53485181E8
+                    }
+                  },
+                  {
+                    "key" : "united",
+                    "doc_count" : 93,
+                    "profit" : {
+                      "value" : 2.53485181E8
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "key" : 1998,
+              "doc_count" : 192,
+              "c_nation" : {
+                "doc_count_error_upper_bound" : 0,
+                "sum_other_doc_count" : 0,
+                "buckets" : [
+                  {
+                    "key" : "argentina",
+                    "doc_count" : 40,
+                    "profit" : {
+                      "value" : 1.15123741E8
+                    }
+                  },
+                  {
+                    "key" : "brazil",
+                    "doc_count" : 31,
+                    "profit" : {
+                      "value" : 9.1410914E7
+                    }
+                  },
+                  {
+                    "key" : "canada",
+                    "doc_count" : 39,
+                    "profit" : {
+                      "value" : 1.14180179E8
+                    }
+                  },
+                  {
+                    "key" : "peru",
+                    "doc_count" : 43,
+                    "profit" : {
+                      "value" : 1.05203906E8
+                    }
+                  },
+                  {
+                    "key" : "states",
+                    "doc_count" : 39,
+                    "profit" : {
+                      "value" : 9.1862206E7
+                    }
+                  },
+                  {
+                    "key" : "united",
+                    "doc_count" : 39,
+                    "profit" : {
+                      "value" : 9.1862206E7
+                    }
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      }
+    }
+  }
+}
